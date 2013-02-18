@@ -1,6 +1,7 @@
 require 'json'
 require 'httparty'
 require 'ostruct'
+require 'uri'
 
 require_relative 'stubhub/document'
 require_relative 'stubhub/client'
