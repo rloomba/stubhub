@@ -21,5 +21,15 @@ module Stubhub
  # puts Stubhub::Ticket.find_by_ticket_id(487197960)
  # puts Stubhub::Event.find_by_event_id(4236091) => individual event
  # puts Stubhub::Event.search("swedish house mafia")
+ # puts Stubhub::Venue.search("Oracle Arena")
+ # puts Stubhub::Genre.search("ice show")
  # --------------------------
 end
+
+# options = {"stubhubDocumentType" => "genre",
+#                  "description" => URI.escape("ice shows")}
+
+# puts Stubhub::Client.convert_query_to_url(options)
+
+# puts Stubhub::Venue.search("Oracle Arena")
+ puts Stubhub::Genre.search("ice show")
