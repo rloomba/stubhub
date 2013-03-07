@@ -14,5 +14,11 @@ module Stubhub
       Client.make_request(Event, options)
     end
 
+    def tickets
+      options = {"stubhubDocumentType" => "ticket",
+                 "event_id" => "#{self.event_id}"}
+      Client.make_request(Ticket, options)
+    end
+
   end
 end

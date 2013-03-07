@@ -18,18 +18,17 @@ module Stubhub
  
  # EXAMPLES -----------
  # doc types: event, venue, genre, geo (Geography), venue_zone_section (Venue Zone Section)
- # puts Stubhub::Ticket.find_by_ticket_id(487197960)
- # puts Stubhub::Event.find_by_event_id(4236091) => individual event
+ #
+ # find a ticket by ticket id 
+ # Stubhub::Ticket.find_by_ticket_id(487197960)
+ #
+ # Stubhub::Event.find_by_event_id(4236091) => individual event
+ #
  # puts Stubhub::Event.search("swedish house mafia")
  # puts Stubhub::Venue.search("Oracle Arena")
  # puts Stubhub::Genre.search("ice show")
+ #
+ # event = Stubhub::Event.find_by_event_id(4242261).first
+ # event.tickets => returns an array of tickets for given event
  # --------------------------
 end
-
-# options = {"stubhubDocumentType" => "genre",
-#                  "description" => URI.escape("ice shows")}
-
-# puts Stubhub::Client.convert_query_to_url(options)
-
-# puts Stubhub::Venue.search("Oracle Arena")
- puts Stubhub::Genre.search("ice show")
