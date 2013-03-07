@@ -2,7 +2,7 @@ module Stubhub
   module Client
     include HTTParty
 
-    base_uri "http://www.stubhub.com/listingCatalog/select/?q="
+    @base_uri "http://www.stubhub.com/listingCatalog/select/?q="
     format :json
 
     def self.convert_query_to_url(options)
@@ -12,7 +12,7 @@ module Stubhub
     end
 
     def self.make_request(klass, options)
-      query_url = convert_query_to_url(options)
+      query_url = @base_uri + convert_query_to_url(options)
       result = get(query_url)
       parsed_result = JSON.parse(result.body)
       parsed_result["response"]["docs"].map do |doc|
