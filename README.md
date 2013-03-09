@@ -38,11 +38,11 @@ Stubhub::Event.find_by_event_id(4236091) # => returns an Event object
   Stubhub::Event.search("swedish house mafia") # => returns an Event object
 
 # search for a venue
-  Stubhub::Venue.search("Oracle Arena")
+  Stubhub::Venue.search("Oracle Arena") # => returns a Venue object
 
 # search for a genre  
- Stubhub::Genre.search("ice show")
- 
+ Stubhub::Genre.search("ice show") # => returns a Genre object
+
 ```
 
 ## Contributing
