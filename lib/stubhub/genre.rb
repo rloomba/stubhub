@@ -1,10 +1,10 @@
 module Stubhub
   class Genre < Document
-    def self.search(search_query)
+    def self.search(search_query, options = {})
       search_query = URI.escape(search_query)
-      options = {"stubhubDocumentType" => "#{demodulize(self).downcase}",
+      params = {"stubhubDocumentType" => "#{demodulize(self).downcase}",
                  "description" => "#{search_query}"}
-      Client.make_request(Event, options)
+      Client.make_request(Event, params, options = {})
     end
 
   end
