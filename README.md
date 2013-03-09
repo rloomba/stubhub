@@ -33,6 +33,11 @@ Stubhub::Event.find_by_event_id(4236091) # => returns an Event object
   event = Stubhub::Event.find_by_event_id(4236091) # => returns an Event object
   # then call tickets method on that event
   event.tickets # => returns an array of ticket objects
+  #return the first 20 ticket listings
+  event.tickets("row" => 20) # => returns an array of ticket objects
+  #return the second 20 ticket listings
+  event.tickets("start" => 20, "row" => 20) # => returns an array of ticket objects
+
 
 # search for an event 
   Stubhub::Event.search("swedish house mafia") # => returns an Event object
