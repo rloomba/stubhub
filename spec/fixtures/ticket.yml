@@ -1,0 +1,129 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.stubhub.com/listingCatalog/select/?q=%2B%20stubhubDocumentType:ticket%0D%0A%2B%20id:488218079%0D%0A&rows=10&start=0&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Powered-By:
+      - ! 'Servlet 2.4; JBoss-4.2.2.GA (build: SVNTag=JBoss_4_2_2_GA date=200710221139)/Tomcat-5.5'
+      Content-Length:
+      - '1230'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sat, 16 Mar 2013 18:35:50 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 16 Mar 2013 18:35:50 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=53683A5C8E68108E73C9F73FD48BF108; Path=/; Domain=.stubhub.com
+      - TLTSID=53683A5C8E68108E73C9F73FD48BF108; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 16-Mar-2013 19:05:50 GMT;path=/;domain=www.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":1,"params":{"wt":"json","rows":"10","start":"0","q":"+
+        stubhubDocumentType:ticket\r\n+ id:488218079\r\n"}},"response":{"numFound":1,"start":0,"docs":[{"stubhubDocumentId":"ticket-488218079","stubhubDocumentType":"ticket","courier":"0","curr_price":78.0,"curPr":78.0,"date_added":"2013-02-25T07:21:23Z","date_last_modified":"2013-02-25T07:22:34Z","delivery_icon":"fedex","end_date":"2013-12-05T00:30:00Z","event_id":"4187540","id":"488218079","priceGroups":"1","quantity":6,"quantity_facet_str":"6
+        tickets|6","quantity_remain":6,"row_desc":"V","sale_method":"1","seats":"General
+        Admission","section":"Mezzanine Level","seller_cobrand":"www","seller_id":"6802387","showTicketKeyStr":"ticketACTIVE4187540","split_option":"1","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"2","ticket_split":1,"time_left":"263d
+        15h 39m","listing_source_id":"7","listing_source_name":"IndyGen3","updateInitiatedTimestamp":"2013-03-16T08:50:43.161Z","currency_code":"USD","dateLastIndexed":"2013-03-16T08:50:54.606Z","fm_dm_rules":["5,1,4.95,,2013-12-05T00:30:00Z"],"fm_dm_rules_desc":["PDF,Electronic
+        - Download,4.95,,2013-12-05T00:30:00Z"]}]}}'
+    http_version: 
+  recorded_at: Sat, 16 Mar 2013 18:35:50 GMT
+- request:
+    method: get
+    uri: http://www.stubhub.com/listingCatalog/select/?q=%2B%20stubhubDocumentType:event%0D%0A%2B%20event_id:4187540%0D%0A&rows=10&start=0&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Powered-By:
+      - ! 'Servlet 2.4; JBoss-4.2.2.GA (build: SVNTag=JBoss_4_2_2_GA date=200710221139)/Tomcat-5.5'
+      Content-Length:
+      - '5418'
+      X-Cnection:
+      - close
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sat, 16 Mar 2013 20:52:08 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 16 Mar 2013 20:52:08 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=5DD31E048E7B108E0DBDC1868DD45F99; Path=/; Domain=.stubhub.com
+      - TLTSID=5DD31E048E7B108E0DBDC1868DD45F99; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 16-Mar-2013 21:22:08 GMT;path=/;domain=www.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":0,"params":{"wt":"json","rows":"10","start":"0","q":"+
+        stubhubDocumentType:event\r\n+ event_id:4187540\r\n +allowedViewingDomain:stubhub.com"}},"response":{"numFound":1,"start":0,"docs":[{"stubhubDocumentId":"event-4187540","stubhubDocumentType":"event","event_id":"4187540","act_primary":"2013
+        AMT Christmas Show","id":"4187540","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63910 726864","ancestorGeoIds":"0 196976 521 522 63483","channel":"Concert
+        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
+        tickets|1","city":"Lancaster","date_confirm":"2012-12-06T17:55:16Z","date_inhand":"2012-12-07T19:30:16Z","date_last_modified":"2013-03-06T17:36:11Z","date_onsale":"2012-12-07T17:55:17Z","description":"2013
+        AMT Christmas Show: The First Noel Tickets","desc_sort":"2013 AMT Christmas
+        Show: The First Noel Tickets","eventDate_facet_str":"December, 2013|2013-12","eventGenreParentDescription_facet_str":"AMT
+        Christmas Show Tickets|726864","eventGeoDescription":"American Music Theatre
+        - Lancaster","eventGeoDescription_text":"American Music Theatre - Lancaster","eventLocation_facet_str":"Pennsylvania,
+        Philadelphia|522","event_date":"2013-12-07T00:30:00Z","event_date_local":"2013-12-06","event_date_time_local":"2013-12-06T19:30:00Z","event_time_local":"19:30:00","event_type":"4187540,
+        ","evt_segmentation_id":"0","genreDateDesc":"music-genre-alternative-music-tickets","genreUrlPath":"amt-christmas-show-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        A - C","genre_parent":"726864","genre_parent_name":"AMT Christmas Show Tickets","geoEventTypes":"clubs-bars-theater-venues","geoUrlPath":"american-music-theater-lancaster-tickets","geography_parent":"63483","hide_event_date":"0","image_url":"stubhub_73510_AmericanMusicTheater_Concert.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"2013
+        AMT Christmas Show, , 2013 AMT Christmas Show American Music Theatre - Lancaster,
+        2013 AMT Christmas Show Lancaster,2013 AMT Christmas Show Concert, buy, sell,
+        ticket, tickets","last_chance":"2013-12-07T00:30:00Z","maxPrice":78.0,"maxSeatsTogether":6.0,"meta_description":"2013
+        AMT Christmas Show American Music Theatre - Lancaster Tickets - Buy and sell
+        2013 AMT Christmas Show Lancaster Tickets for December 6 at American Music
+        Theatre - Lancaster in Lancaster, PA on StubHub!","minPrice":78.0,"minSeatsTogether":6.0,"name_primary":"American
+        Music Theatre - Lancaster","name_secondary":"2013 AMT Christmas Show","nickname":"family","seo_description":"2013
+        AMT Christmas Show at American Music Theatre - Lancaster","seo_title":"2013
+        AMT Christmas Show American Music Theatre - Lancaster Lancaster Tickets -
+        2013-12-6","spark_event_flag":"0","state":"PA","threeLevelsUpIds":"726864
+        63910 1","title":"2013 AMT Christmas Show Lancaster Tickets - 2013 AMT Christmas
+        Show 12/06/2013 American Music Theatre - Lancaster Tickets on StubHub!","totalPostings":1,"totalTickets":6.0,"type_id":"0","urlpath":"2013-amt-christmas-show-lancaster-american-music-theatre---lancaster-6-12-2013-4187540","urlpathid":"2230804","venue_config_id":"73510","venue_name":"American
+        Music Theatre - Lancaster","venue_name_text":"American Music Theatre - Lancaster","venueconfigurationid":"73510","zip":"17605","artistPrimaryStyle":"178738","is_event_package":"0","latitude":40.02485,"longitude":-76.200516,"lat_lon":"40.0248492,-76.200516","date_added":"2012-12-07T17:55:17Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"Theater","updateInitiatedTimestamp":"2013-03-16T11:40:21.020Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"2013
+        AMT Christmas Show, , 2013 AMT Christmas Show American Music Theatre - Lancaster,
+        2013 AMT Christmas Show Lancaster,2013 AMT Christmas Show Concert, buy, sell,
+        ticket, tickets","event_type_en_US":"4187540, ","seo_title_en_US":"2013 AMT
+        Christmas Show American Music Theatre - Lancaster Lancaster Tickets - 2013-12-6","seo_description_en_US":"2013
+        AMT Christmas Show at American Music Theatre - Lancaster","name_primary_en_US":"American
+        Music Theatre - Lancaster","name_secondary_en_US":"2013 AMT Christmas Show","act_primary_en_US":"2013
+        AMT Christmas Show","title_en_US":"2013 AMT Christmas Show Lancaster Tickets
+        - 2013 AMT Christmas Show 12/06/2013 American Music Theatre - Lancaster Tickets
+        on StubHub!","meta_description_en_US":"2013 AMT Christmas Show American Music
+        Theatre - Lancaster Tickets - Buy and sell 2013 AMT Christmas Show Lancaster
+        Tickets for December 6 at American Music Theatre - Lancaster in Lancaster,
+        PA on StubHub!","event_description_en_US":"2013 AMT Christmas Show: The First
+        Noel Tickets","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"american-music-theater-lancaster","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"0","dateLastIndexed":"2013-03-16T11:40:31.251Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Pennsylvania","Philadelphia","American Music Theatre
+        - Lancaster"],"artistSecondaryStyle":["195743"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists A - C","AMT Christmas Show Tickets"]}]}}'
+    http_version: 
+  recorded_at: Sat, 16 Mar 2013 20:52:07 GMT
+recorded_with: VCR 2.4.0

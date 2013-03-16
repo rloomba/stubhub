@@ -13,6 +13,16 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'stubhub'
 require 'vcr'
 
+VCR.configure do |c|
+  c.cassette_library_dir = 'spec/fixtures'
+  c.hook_into :webmock
+  c.allow_http_connections_when_no_cassette = false
+  c.default_cassette_options = {
+    :allow_playback_repeats => true, 
+    :record => :new_episodes, 
+    :re_record_interval => 604800
+  }
+end
 
 
 RSpec.configure do |config|
