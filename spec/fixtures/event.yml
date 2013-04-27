@@ -475,4 +475,774 @@ http_interactions:
         tickets","Concert tickets","Artists T - Z","Ultra Music Festival Tickets"]}]}}'
     http_version: 
   recorded_at: Mon, 01 Apr 2013 23:34:37 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2Bevent_id:4187540%20AND%20%2BstubhubDocumentType:event&rows=10&start=0&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '5454'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sat, 27 Apr 2013 08:52:34 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:52:34 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=CDBF6F44AF1710AFF7A7A0E4D296DC77; Path=/; Domain=.stubhub.com
+      - TLTSID=CDBF6F44AF1710AFF7A7A0E4D296DC77; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:22:34 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":79,"params":{"wt":"json","rows":"10","start":"0","q":"+event_id:4187540
+        AND +stubhubDocumentType:event +allowedViewingDomain:stubhub.com"}},"response":{"numFound":1,"start":0,"docs":[{"stubhubDocumentId":"event-4187540","stubhubDocumentType":"event","event_id":"4187540","act_primary":"2013
+        AMT Christmas Show","id":"4187540","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63910 726864","ancestorGeoIds":"0 196976 521 522 63483","channel":"Concert
+        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
+        tickets|1","city":"Lancaster","date_confirm":"2012-12-06T17:55:16Z","date_inhand":"2012-12-07T19:30:16Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2012-12-07T17:55:17Z","description":"2013
+        AMT Christmas Show: The First Noel Tickets","desc_sort":"2013 AMT Christmas
+        Show: The First Noel Tickets","eventDate_facet_str":"December, 2013|2013-12","eventGenreParentDescription_facet_str":"AMT
+        Christmas Show Tickets|726864","eventGeoDescription":"American Music Theatre
+        - Lancaster","eventGeoDescription_text":"American Music Theatre - Lancaster","eventLocation_facet_str":"Pennsylvania,
+        Philadelphia|522","event_date":"2013-12-07T00:30:00Z","event_date_local":"2013-12-06","event_date_time_local":"2013-12-06T19:30:00Z","event_time_local":"19:30:00","event_type":"4187540,
+        ","evt_segmentation_id":"0","genreDateDesc":"music-genre-alternative-music-tickets","genreUrlPath":"amt-christmas-show-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        A - C","genre_parent":"726864","genre_parent_name":"AMT Christmas Show Tickets","geoEventTypes":"clubs-bars-theater-venues","geoUrlPath":"american-music-theater-lancaster-tickets","geography_parent":"63483","hide_event_date":"0","image_url":"stubhub_73510_AmericanMusicTheater_Concert.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"2013
+        AMT Christmas Show, , 2013 AMT Christmas Show American Music Theatre - Lancaster,
+        2013 AMT Christmas Show Lancaster,2013 AMT Christmas Show Concert, buy, sell,
+        ticket, tickets","last_chance":"2013-12-07T00:30:00Z","maxPrice":78.0,"maxSeatsTogether":6.0,"meta_description":"2013
+        AMT Christmas Show American Music Theatre - Lancaster Tickets - Buy and sell
+        2013 AMT Christmas Show Lancaster Tickets for December 6 at American Music
+        Theatre - Lancaster in Lancaster, PA on StubHub!","minPrice":78.0,"minSeatsTogether":6.0,"name_primary":"American
+        Music Theatre - Lancaster","name_secondary":"2013 AMT Christmas Show","nickname":"family","seo_description":"2013
+        AMT Christmas Show at American Music Theatre - Lancaster","seo_title":"2013
+        AMT Christmas Show American Music Theatre - Lancaster Lancaster Tickets -
+        2013-12-6","spark_event_flag":"0","state":"PA","threeLevelsUpIds":"726864
+        63910 1","title":"2013 AMT Christmas Show Lancaster Tickets - 2013 AMT Christmas
+        Show 12/06/2013 American Music Theatre - Lancaster Tickets on StubHub!","totalPostings":1,"totalTickets":6.0,"type_id":"0","urlpath":"2013-amt-christmas-show-lancaster-american-music-theatre---lancaster-6-12-2013-4187540","urlpathid":"2230804","venue_config_id":"73510","venue_name":"American
+        Music Theatre - Lancaster","venue_name_text":"American Music Theatre - Lancaster","venueconfigurationid":"73510","zip":"17605","artistPrimaryStyle":"178738","is_event_package":"0","latitude":40.02485,"longitude":-76.200516,"lat_lon":"40.0248492,-76.200516","date_added":"2012-12-07T17:55:17Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"Theater","updateInitiatedTimestamp":"2013-04-27T02:14:19.576Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"2013
+        AMT Christmas Show, , 2013 AMT Christmas Show American Music Theatre - Lancaster,
+        2013 AMT Christmas Show Lancaster,2013 AMT Christmas Show Concert, buy, sell,
+        ticket, tickets","event_type_en_US":"4187540, ","seo_title_en_US":"2013 AMT
+        Christmas Show American Music Theatre - Lancaster Lancaster Tickets - 2013-12-6","seo_description_en_US":"2013
+        AMT Christmas Show at American Music Theatre - Lancaster","name_primary_en_US":"American
+        Music Theatre - Lancaster","name_secondary_en_US":"2013 AMT Christmas Show","act_primary_en_US":"2013
+        AMT Christmas Show","title_en_US":"2013 AMT Christmas Show Lancaster Tickets
+        - 2013 AMT Christmas Show 12/06/2013 American Music Theatre - Lancaster Tickets
+        on StubHub!","meta_description_en_US":"2013 AMT Christmas Show American Music
+        Theatre - Lancaster Tickets - Buy and sell 2013 AMT Christmas Show Lancaster
+        Tickets for December 6 at American Music Theatre - Lancaster in Lancaster,
+        PA on StubHub!","event_description_en_US":"2013 AMT Christmas Show: The First
+        Noel Tickets","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"american-music-theater-lancaster","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":78.0,"dateLastIndexed":"2013-04-27T02:14:20.163Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Pennsylvania","Philadelphia","American Music Theatre
+        - Lancaster"],"artistSecondaryStyle":["195743"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists A - C","AMT Christmas Show Tickets"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:52:34 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2Bdescription:%22above%20and%20beyond%22%20AND%20%2BstubhubDocumentType:event&rows=10&start=0&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '18424'
+      Expires:
+      - Sat, 27 Apr 2013 08:52:34 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:52:34 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=CDFB8F06AF1710AF0E95B355E525BD33; Path=/; Domain=.stubhub.com
+      - TLTSID=CDFB8F06AF1710AF0E95B355E525BD33; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:22:34 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":1,"params":{"wt":"json","rows":"10","start":"0","q":"+description:\"above
+        and beyond\" AND +stubhubDocumentType:event +allowedViewingDomain:stubhub.com"}},"response":{"numFound":4,"start":0,"docs":[{"stubhubDocumentId":"event-4262936","stubhubDocumentType":"event","event_id":"4262936","act_primary":"Above
+        And Beyond","id":"4262936","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63910 494083","ancestorGeoIds":"0 196976 688 689 212858","channel":"Concert
+        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
+        tickets|1","city":"Las Vegas","date_confirm":"2013-03-27T20:54:55Z","date_inhand":"2013-03-28T20:54:55Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2013-03-28T20:54:55Z","description":"Above
+        And Beyond Tickets (21+ Event)","desc_sort":"Above And Beyond Tickets (21+
+        Event)","eventDate_facet_str":"May, 2013|2013-05","eventGenreParentDescription_facet_str":"Above
+        and Beyond Tickets|494083","eventGeoDescription":"Surrender Nightclub at Encore","eventGeoDescription_text":"Surrender
+        Nightclub at Encore","eventLocation_facet_str":"Nevada, Las Vegas|689","event_date":"2013-05-27T05:30:00Z","event_date_local":"2013-05-26","event_date_time_local":"2013-05-26T22:30:00Z","event_time_local":"22:30:00","event_type":"4262936,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        A - C","genre_parent":"494083","genre_parent_name":"Above and Beyond Tickets","geoEventTypes":"clubs-bars-theater-venues","geoUrlPath":"surrender-nightclub-at-encore-tickets","geography_parent":"212858","hide_event_date":"0","image_url":"stubhub_594992_NightclubMaleFemaleGA_TextOnly.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Above
+        And Beyond, , Above And Beyond Surrender Nightclub at Encore, Above And Beyond
+        Las Vegas,Above And Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-27T05:30:00Z","maxPrice":0.0,"maxSeatsTogether":0.0,"meta_description":"Above
+        And Beyond Surrender Nightclub at Encore Tickets - Buy and sell Above And
+        Beyond Las Vegas Tickets for May 26 at Surrender Nightclub at Encore in Las
+        Vegas, NV on StubHub!","minPrice":0.0,"minSeatsTogether":0.0,"name_primary":"Surrender
+        Nightclub at Encore","name_secondary":"Above And Beyond","nickname":"concerts","seo_description":"Above
+        And Beyond at Surrender Nightclub at Encore","seo_title":"Above And Beyond
+        Surrender Nightclub at Encore Las Vegas Tickets - 2013-5-26","spark_event_flag":"0","state":"NV","threeLevelsUpIds":"494083
+        63910 1","title":"Above And Beyond Las Vegas Tickets - Above And Beyond 05/26/2013
+        Surrender Nightclub at Encore Tickets on StubHub!","totalPostings":0,"totalTickets":0.0,"type_id":"0","urlpath":"above-and-beyond-las-vegas-surrender-nightclub-at-encore-26-5-2013-4262936","urlpathid":"2311009","venue_config_id":"594992","venue_name":"Surrender
+        Nightclub at Encore","venue_name_text":"Surrender Nightclub at Encore","venueconfigurationid":"594992","zip":"89109","zoneDescriptions":"|General
+        Admission - Female |General Admission - Male","zoneIds":"83049 83050","artistPrimaryStyle":"195489","is_event_package":"0","date_added":"2013-03-28T20:54:55Z","event_status_id":2,"timezone":"PST","timezone_id":"5","venue_config_name":"Male
+        and Female General Admission","updateInitiatedTimestamp":"2013-04-27T08:00:34.039Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
+        And Beyond, , Above And Beyond Surrender Nightclub at Encore, Above And Beyond
+        Las Vegas,Above And Beyond Concert, buy, sell, ticket, tickets","event_type_en_US":"4262936,","seo_title_en_US":"Above
+        And Beyond Surrender Nightclub at Encore Las Vegas Tickets - 2013-5-26","seo_description_en_US":"Above
+        And Beyond at Surrender Nightclub at Encore","name_primary_en_US":"Surrender
+        Nightclub at Encore","name_secondary_en_US":"Above And Beyond","act_primary_en_US":"Above
+        And Beyond","title_en_US":"Above And Beyond Las Vegas Tickets - Above And
+        Beyond 05/26/2013 Surrender Nightclub at Encore Tickets on StubHub!","meta_description_en_US":"Above
+        And Beyond Surrender Nightclub at Encore Tickets - Buy and sell Above And
+        Beyond Las Vegas Tickets for May 26 at Surrender Nightclub at Encore in Las
+        Vegas, NV on StubHub!","event_description_en_US":"Above And Beyond Tickets
+        (21+ Event)","jdk_timezone":"US/Pacific","ptv_integrated_event_ind":0,"venueDetailUrlPath":"surrender-nightclub-at-encore","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":0.0,"dateLastIndexed":"2013-04-27T08:04:22.105Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Nevada","Las Vegas","Surrender Nightclub at Encore"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists A - C","Above and Beyond Tickets"]},{"stubhubDocumentId":"event-4259348","stubhubDocumentType":"event","event_id":"4259348","act_primary":"Above
+        and Beyond","id":"4259348","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63910 494083","ancestorGeoIds":"0 196976 673 674 180347","channel":"Concert
+        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
+        tickets|1","city":"Boston","date_confirm":"2013-03-18T17:16:37Z","date_inhand":"2013-03-19T17:16:37Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2013-03-19T17:16:37Z","description":"Above
+        and Beyond Tickets (18+ Event)","desc_sort":"Above and Beyond Tickets (18+
+        Event)","eventDate_facet_str":"May, 2013|2013-05","eventGenreParentDescription_facet_str":"Above
+        and Beyond Tickets|494083","eventGeoDescription":"Royale Boston","eventGeoDescription_text":"Royale
+        Boston","eventLocation_facet_str":"Massachusetts, Boston|674","event_date":"2013-05-22T00:00:00Z","event_date_local":"2013-05-21","event_date_time_local":"2013-05-21T20:00:00Z","event_time_local":"20:00:00","event_type":"4259348,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        A - C","genre_parent":"494083","genre_parent_name":"Above and Beyond Tickets","geoEventTypes":"","geoUrlPath":"royale-boston-tickets","geography_parent":"180347","hide_event_date":"0","image_url":"stubhub_463220_GA_generic.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-22T00:00:00Z","maxPrice":200.0,"maxSeatsTogether":8.0,"meta_description":"Above
+        and Beyond Royale Boston Tickets - Buy and sell Above and Beyond Boston Tickets
+        for May 21 at Royale Boston in Boston, MA on StubHub!","minPrice":50.0,"minSeatsTogether":1.0,"name_primary":"Royale
+        Boston","name_secondary":"Above and Beyond","nickname":"concerts","seo_description":"Above
+        and Beyond at Royale Boston","seo_title":"Above and Beyond Royale Boston Boston
+        Tickets - 2013-5-21","spark_event_flag":"0","state":"MA","threeLevelsUpIds":"494083
+        63910 1","title":"Above and Beyond Boston Tickets - Above and Beyond 05/21/2013
+        Royale Boston Tickets on StubHub!","totalPostings":17,"totalTickets":59.0,"type_id":"0","urlpath":"above-and-beyond-boston-royale-boston-21-5-2013-4259348","urlpathid":"2306346","venue_config_id":"463220","venue_name":"Royale
+        Boston","venue_name_text":"Royale Boston","venueconfigurationid":"463220","zip":"02116","artistPrimaryStyle":"195489","is_event_package":"0","latitude":42.349953,"longitude":-71.10707,"lat_lon":"42.349952,-71.10707","date_added":"2013-03-19T17:16:37Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"General
+        Admission","updateInitiatedTimestamp":"2013-04-27T08:00:34.034Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","event_type_en_US":"4259348,","seo_title_en_US":"Above
+        and Beyond Royale Boston Boston Tickets - 2013-5-21","seo_description_en_US":"Above
+        and Beyond at Royale Boston","name_primary_en_US":"Royale Boston","name_secondary_en_US":"Above
+        and Beyond","act_primary_en_US":"Above and Beyond","title_en_US":"Above and
+        Beyond Boston Tickets - Above and Beyond 05/21/2013 Royale Boston Tickets
+        on StubHub!","meta_description_en_US":"Above and Beyond Royale Boston Tickets
+        - Buy and sell Above and Beyond Boston Tickets for May 21 at Royale Boston
+        in Boston, MA on StubHub!","event_description_en_US":"Above and Beyond Tickets
+        (18+ Event)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"royale-boston","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":50.0,"dateLastIndexed":"2013-04-27T08:05:03.332Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Massachusetts","Boston","Royale Boston"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists A - C","Above and Beyond Tickets"]},{"stubhubDocumentId":"event-4258863","stubhubDocumentType":"event","event_id":"4258863","act_primary":"Above
+        and Beyond","id":"4258863","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63910 494083","ancestorGeoIds":"0 196976 673 674 180347","channel":"Concert
+        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
+        tickets|1","city":"Boston","date_confirm":"2013-03-18T17:17:03Z","date_inhand":"2013-03-19T17:17:03Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2013-03-19T17:17:03Z","description":"Above
+        and Beyond Tickets (21+ Event)","desc_sort":"Above and Beyond Tickets (21+
+        Event)","eventDate_facet_str":"May, 2013|2013-05","eventGenreParentDescription_facet_str":"Above
+        and Beyond Tickets|494083","eventGeoDescription":"Royale Boston","eventGeoDescription_text":"Royale
+        Boston","eventLocation_facet_str":"Massachusetts, Boston|674","event_date":"2013-05-23T02:00:00Z","event_date_local":"2013-05-22","event_date_time_local":"2013-05-22T22:00:00Z","event_time_local":"22:00:00","event_type":"4258863,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        A - C","genre_parent":"494083","genre_parent_name":"Above and Beyond Tickets","geoEventTypes":"","geoUrlPath":"royale-boston-tickets","geography_parent":"180347","hide_event_date":"0","image_url":"stubhub_463220_GA_generic.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-23T02:00:00Z","maxPrice":200.0,"maxSeatsTogether":8.0,"meta_description":"Above
+        and Beyond Royale Boston Tickets - Buy and sell Above and Beyond Boston Tickets
+        for May 22 at Royale Boston in Boston, MA on StubHub!","minPrice":45.0,"minSeatsTogether":1.0,"name_primary":"Royale
+        Boston","name_secondary":"Above and Beyond","nickname":"concerts","seo_description":"Above
+        and Beyond at Royale Boston","seo_title":"Above and Beyond Royale Boston Boston
+        Tickets - 2013-5-22","spark_event_flag":"0","state":"MA","threeLevelsUpIds":"494083
+        63910 1","title":"Above and Beyond Boston Tickets - Above and Beyond 05/22/2013
+        Royale Boston Tickets on StubHub!","totalPostings":25,"totalTickets":80.0,"type_id":"0","urlpath":"above-and-beyond-boston-royale-boston-22-5-2013-4258863","urlpathid":"2306101","venue_config_id":"463220","venue_name":"Royale
+        Boston","venue_name_text":"Royale Boston","venueconfigurationid":"463220","zip":"02116","artistPrimaryStyle":"195489","is_event_package":"0","latitude":42.349953,"longitude":-71.10707,"lat_lon":"42.349952,-71.10707","date_added":"2013-03-19T17:17:03Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"General
+        Admission","updateInitiatedTimestamp":"2013-04-27T08:00:34.032Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","event_type_en_US":"4258863,","seo_title_en_US":"Above
+        and Beyond Royale Boston Boston Tickets - 2013-5-22","seo_description_en_US":"Above
+        and Beyond at Royale Boston","name_primary_en_US":"Royale Boston","name_secondary_en_US":"Above
+        and Beyond","act_primary_en_US":"Above and Beyond","title_en_US":"Above and
+        Beyond Boston Tickets - Above and Beyond 05/22/2013 Royale Boston Tickets
+        on StubHub!","meta_description_en_US":"Above and Beyond Royale Boston Tickets
+        - Buy and sell Above and Beyond Boston Tickets for May 22 at Royale Boston
+        in Boston, MA on StubHub!","event_description_en_US":"Above and Beyond Tickets
+        (21+ Event)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"royale-boston","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":45.0,"dateLastIndexed":"2013-04-27T08:05:27.764Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Massachusetts","Boston","Royale Boston"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists A - C","Above and Beyond Tickets"]},{"stubhubDocumentId":"event-4267610","stubhubDocumentType":"event","event_id":"4267610","act_primary":"Above
+        and Beyond","id":"4267610","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63910 494083","ancestorGeoIds":"0 196976 673 674 180347","channel":"Concert
+        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
+        tickets|1","city":"Boston","date_confirm":"2013-04-11T00:25:15Z","date_inhand":"2013-04-12T00:25:15Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2013-04-12T00:25:15Z","description":"Above
+        And Beyond Tickets (21+ Event)","desc_sort":"Above And Beyond Tickets (21+
+        Event)","eventDate_facet_str":"May, 2013|2013-05","eventGenreParentDescription_facet_str":"Above
+        and Beyond Tickets|494083","eventGeoDescription":"Royale Boston","eventGeoDescription_text":"Royale
+        Boston","eventLocation_facet_str":"Massachusetts, Boston|674","event_date":"2013-05-21T00:00:00Z","event_date_local":"2013-05-20","event_date_time_local":"2013-05-20T20:00:00Z","event_time_local":"20:00:00","event_type":"4267610,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        A - C","genre_parent":"494083","genre_parent_name":"Above and Beyond Tickets","geoEventTypes":"","geoUrlPath":"royale-boston-tickets","geography_parent":"180347","hide_event_date":"0","image_url":"stubhub_463220_GA_generic.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-21T00:00:00Z","maxPrice":125.0,"maxSeatsTogether":6.0,"meta_description":"Above
+        and Beyond Royale Boston Tickets - Buy and sell Above and Beyond Boston Tickets
+        for May 20 at Royale Boston in Boston, MA on StubHub!","minPrice":64.5,"minSeatsTogether":2.0,"name_primary":"Royale
+        Boston","name_secondary":"Above and Beyond","nickname":"concerts","seo_description":"Above
+        and Beyond at Royale Boston","seo_title":"Above and Beyond Royale Boston Boston
+        Tickets - 2013-5-20","spark_event_flag":"0","state":"MA","threeLevelsUpIds":"494083
+        63910 1","title":"Above and Beyond Boston Tickets - Above and Beyond 05/20/2013
+        Royale Boston Tickets on StubHub!","totalPostings":3,"totalTickets":10.0,"type_id":"0","urlpath":"above-and-beyond-boston-royale-boston-20-5-2013-4267610","urlpathid":"2315483","venue_config_id":"463220","venue_name":"Royale
+        Boston","venue_name_text":"Royale Boston","venueconfigurationid":"463220","zip":"02116","artistPrimaryStyle":"195489","is_event_package":"0","latitude":42.349953,"longitude":-71.10707,"lat_lon":"42.349952,-71.10707","date_added":"2013-04-12T00:25:15Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"General
+        Admission","updateInitiatedTimestamp":"2013-04-27T08:52:09.846Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","event_type_en_US":"4267610,","seo_title_en_US":"Above
+        and Beyond Royale Boston Boston Tickets - 2013-5-20","seo_description_en_US":"Above
+        and Beyond at Royale Boston","name_primary_en_US":"Royale Boston","name_secondary_en_US":"Above
+        and Beyond","act_primary_en_US":"Above and Beyond","title_en_US":"Above and
+        Beyond Boston Tickets - Above and Beyond 05/20/2013 Royale Boston Tickets
+        on StubHub!","meta_description_en_US":"Above and Beyond Royale Boston Tickets
+        - Buy and sell Above and Beyond Boston Tickets for May 20 at Royale Boston
+        in Boston, MA on StubHub!","event_description_en_US":"Above And Beyond Tickets
+        (21+ Event)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"royale-boston","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":64.5,"dateLastIndexed":"2013-04-27T08:52:28.354Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Massachusetts","Boston","Royale Boston"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists A - C","Above and Beyond Tickets"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:52:35 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2BstubhubDocumentType:ticket&rows=1&start=0&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '13309'
+      Expires:
+      - Sat, 27 Apr 2013 08:52:35 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:52:35 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=CE37DA6AAF1710AF192DD578D606EF7C; Path=/; Domain=.stubhub.com
+      - TLTSID=CE37DA6AAF1710AF192DD578D606EF7C; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:22:35 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":0,"params":{"wt":"json","rows":"10","start":"0","q":"+stubhubDocumentType:ticket"}},"response":{"numFound":2500264,"start":0,"docs":[{"stubhubDocumentId":"ticket-493962295","stubhubDocumentType":"ticket","alias":"Main
+        Floor","aliasStr":"1","courier":"0","curr_price":95.0,"curPr":95.0,"date_added":"2013-04-17T14:49:17Z","date_last_modified":"2013-04-23T21:13:05Z","delivery_icon":"fedex","end_date":"2013-06-07T00:00:00Z","event_id":"4236695","hasAliasBool":true,"id":"493962295","priceGroups":"1","quantity":2,"quantity_facet_str":"2
+        tickets|2","quantity_remain":2,"row_desc":"J","sale_method":"1","seats":"16,17","section":"Main
+        Floor","seller_cobrand":"www","seller_id":"2365165","showTicketKeyStr":"ticketACTIVE4236695","split_option":"1","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"2","ticket_split":2,"time_left":"43d
+        15h 24m","venue_config_sections_id":"469809","zoneid":"90236","zonedesc":"Main
+        Floor","listing_source_id":"7","listing_source_name":"IndyGen3","updateInitiatedTimestamp":"2013-04-24T08:35:48.808Z","currency_code":"USD","list_price":95.0,"dateLastIndexed":"2013-04-24T08:39:22.457Z","fm_dm_rules":["4,2,4.95,,2013-06-07T00:00:00Z"],"fm_dm_rules_desc":["PDF
+        - PreDelivery,Electronic - Instant Download,4.95,,2013-06-07T00:00:00Z"]},{"stubhubDocumentId":"ticket-494445780","stubhubDocumentType":"ticket","alias":"Lower
+        Sideline 115","aliasStr":"1","courier":"0","curr_price":87.8,"curPr":87.8,"date_added":"2013-04-20T01:17:17Z","date_last_modified":"2013-04-20T19:08:08Z","delivery_icon":"fedex","end_date":"2013-08-06T19:00:00Z","event_id":"4267457","hasAliasBool":true,"id":"494445780","priceGroups":"1","quantity":3,"quantity_facet_str":"3
+        tickets|3","quantity_remain":3,"row_desc":"16","sale_method":"1","seats":"13,14,15","section":"Lower
+        Sideline 115","seller_cobrand":"www","seller_id":"3947497","showTicketKeyStr":"ticketACTIVE4267457","split_option":"0","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"1","ticket_split":3,"time_left":"104d
+        10h 20m","venue_config_sections_id":"17613","structuredTicketFeatures":"|Aisle","structuredTicketFeaturesIds":"101","structuredTicketFeaturesTypes":"|Ticket
+        Feature","zoneid":"2829","zonedesc":"Lower Sideline","listing_source_id":"7","listing_source_name":"IndyGen3","updateInitiatedTimestamp":"2013-04-24T08:39:55.744Z","currency_code":"USD","list_price":78.0,"dateLastIndexed":"2013-04-24T08:39:58.891Z","fm_dm_rules":["9,12,15.0,,2013-08-10T00:00:00Z","10,22,19.95,,2013-08-06T19:00:00Z","10,24,11.95,,2013-07-26T19:00:00Z"],"fm_dm_rules_desc":["LMS
+        - PreDelivery,Pickup,15.0,,2013-08-10T00:00:00Z","UPS,UPS Worldwide Saver,19.95,,2013-08-06T19:00:00Z","UPS,UPS
+        2nd Day Air - Intra-USA,11.95,,2013-07-26T19:00:00Z"]},{"stubhubDocumentId":"ticket-488931593","stubhubDocumentType":"ticket","alias":"3rd
+        Mezzanine 4","aliasStr":"1","courier":"0","curr_price":89.0,"curPr":89.0,"date_added":"2013-03-03T15:45:32Z","date_last_modified":"2013-04-12T20:25:28Z","delivery_icon":"fedex","end_date":"2013-10-11T00:00:00Z","event_id":"4248727","hasAliasBool":true,"id":"488931593","priceGroups":"1","quantity":2,"quantity_facet_str":"2
+        tickets|2","quantity_remain":2,"row_desc":"B","sale_method":"1","seats":"409,410","section":"3rd
+        Mezzanine 4","seller_cobrand":"www","seller_id":"4122916","showTicketKeyStr":"ticketACTIVE4248727","split_option":"0","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"2","ticket_split":2,"time_left":"169d
+        15h 20m","venue_config_sections_id":"181696","zoneid":"17189","zonedesc":"3rd
+        Mezzanine","listing_source_id":"7","listing_source_name":"IndyGen3","updateInitiatedTimestamp":"2013-04-24T08:39:59.297Z","currency_code":"USD","list_price":89.0,"dateLastIndexed":"2013-04-24T08:40:02.378Z","fm_dm_rules":["4,2,4.95,,2013-10-11T00:00:00Z"],"fm_dm_rules_desc":["PDF
+        - PreDelivery,Electronic - Instant Download,4.95,,2013-10-11T00:00:00Z"]},{"stubhubDocumentId":"ticket-491064676","stubhubDocumentType":"ticket","alias":"Club
+        Seat 305","aliasStr":"1","courier":"0","curr_price":143.9,"curPr":143.9,"date_added":"2013-03-21T00:03:53Z","date_last_modified":"2013-04-24T01:44:41Z","delivery_icon":"fedex","end_date":"2013-06-09T15:10:00Z","event_id":"4171595","hasAliasBool":true,"id":"491064676","priceGroups":"2","quantity":4,"quantity_facet_str":"4
+        tickets|4","quantity_remain":4,"row_desc":"A","sale_method":"1","seats":"1,2,3,4","section":"305","seller_cobrand":"www","seller_id":"3943676","showTicketKeyStr":"ticketACTIVE4171595","split_option":"1","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"3","ticket_split":2,"time_left":"46d
+        6h 30m","venue_config_sections_id":"110249","zoneid":"41670","zonedesc":"Club
+        Seats","listing_source_id":"8","listing_source_name":"STHGen3","updateInitiatedTimestamp":"2013-04-24T08:39:57.690Z","currency_code":"USD","list_price":129.0,"dateLastIndexed":"2013-04-24T08:40:03.289Z","fm_dm_rules":["1,2,5.45,,2013-06-09T15:10:00Z"],"fm_dm_rules_desc":["Barcode
+        - PreDelivery (STH),Electronic - Instant Download,5.45,,2013-06-09T15:10:00Z"]},{"stubhubDocumentId":"ticket-485470199","stubhubDocumentType":"ticket","alias":"Infield
+        Box 127","aliasStr":"1","courier":"0","curr_price":81.2,"curPr":81.2,"date_added":"2013-02-08T21:14:30Z","date_last_modified":"2013-04-20T01:16:33Z","delivery_icon":"fedex","end_date":"2013-05-11T21:08:00Z","event_id":"4169000","hasAliasBool":true,"id":"485470199","priceGroups":"1","quantity":2,"quantity_facet_str":"2
+        tickets|2","quantity_remain":2,"row_desc":"18","sale_method":"1","seats":"5,6","section":"127","seller_cobrand":"www","seller_id":"4376620","showTicketKeyStr":"ticketACTIVE4169000","split_option":"0","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"3","ticket_split":2,"time_left":"17d
+        12h 27m","venue_config_sections_id":"142478","zoneid":"3778","zonedesc":"Infield
+        Box","listing_source_id":"7","listing_source_name":"IndyGen3","updateInitiatedTimestamp":"2013-04-24T08:40:15.793Z","currency_code":"USD","list_price":72.0,"dateLastIndexed":"2013-04-24T08:40:19.086Z","fm_dm_rules":["2,2,5.45,,2013-05-11T21:08:00Z"],"fm_dm_rules_desc":["Barcode
+        - PreDelivery (Non-STH),Electronic - Instant Download,5.45,,2013-05-11T21:08:00Z"]},{"stubhubDocumentId":"ticket-494552573","stubhubDocumentType":"ticket","alias":"Hall
+        of Fame 150","aliasStr":"1","courier":"0","curr_price":266.0,"curPr":266.0,"date_added":"2013-04-20T21:41:08Z","date_last_modified":"2013-04-20T21:52:22Z","delivery_icon":"fedex","end_date":"2013-10-10T19:00:00Z","event_id":"4270645","hasAliasBool":true,"id":"494552573","priceGroups":"5","quantity":2,"quantity_facet_str":"2
+        tickets|2","quantity_remain":2,"row_desc":"18","sale_method":"1","seats":"General
+        Admission","section":"Hall of Fame 150","seller_cobrand":"www","seller_id":"2174479","showTicketKeyStr":"ticketACTIVE4270645","split_option":"0","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"1","ticket_split":2,"time_left":"169d
+        10h 24m","venue_config_sections_id":"190821","zoneid":"20332","zonedesc":"Hall
+        of Fame","listing_source_id":"7","listing_source_name":"IndyGen3","updateInitiatedTimestamp":"2013-04-24T08:35:22.063Z","currency_code":"USD","list_price":240.0,"dateLastIndexed":"2013-04-24T08:41:01.235Z","fm_dm_rules":["9,12,15.0,,2013-10-14T00:30:00Z","10,22,19.95,,2013-10-09T19:00:00Z","10,24,11.95,,2013-09-27T19:00:00Z"],"fm_dm_rules_desc":["LMS
+        - PreDelivery,Pickup,15.0,,2013-10-14T00:30:00Z","UPS,UPS Worldwide Saver,19.95,,2013-10-09T19:00:00Z","UPS,UPS
+        2nd Day Air - Intra-USA,11.95,,2013-09-27T19:00:00Z"]},{"stubhubDocumentId":"ticket-494550783","stubhubDocumentType":"ticket","alias":"Infield
+        Upper Deck Box 427","aliasStr":"1","courier":"0","curr_price":71.3,"curPr":71.3,"date_added":"2013-04-20T19:51:58Z","date_last_modified":"2013-04-20T19:54:02Z","delivery_icon":"fedex","end_date":"2013-06-22T18:05:00Z","event_id":"4169233","hasAliasBool":true,"id":"494550783","priceGroups":"1","quantity":2,"quantity_facet_str":"2
+        tickets|2","quantity_remain":2,"row_desc":"9","sale_method":"1","seats":"101,102","section":"427","seller_cobrand":"www","seller_id":"4746347","showTicketKeyStr":"ticketACTIVE4169233","split_option":"0","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"3","ticket_split":2,"time_left":"59d
+        9h 23m","venue_config_sections_id":"116970","structuredTicketFeatures":"|Aisle","structuredTicketFeaturesIds":"101","structuredTicketFeaturesTypes":"|Ticket
+        Feature","zoneid":"3576","zonedesc":"Infield Upper Deck Box","listing_source_id":"8","listing_source_name":"STHGen3","updateInitiatedTimestamp":"2013-04-24T08:41:06.396Z","currency_code":"USD","list_price":63.0,"dateLastIndexed":"2013-04-24T08:41:56.826Z","fm_dm_rules":["1,2,5.45,,2013-06-22T14:05:00Z"],"fm_dm_rules_desc":["Barcode
+        - PreDelivery (STH),Electronic - Instant Download,5.45,,2013-06-22T14:05:00Z"]},{"stubhubDocumentId":"ticket-481380990","stubhubDocumentType":"ticket","alias":"Upper
+        236","aliasStr":"1","courier":"0","curr_price":75.0,"curPr":75.0,"date_added":"2013-01-15T19:44:07Z","date_last_modified":"2013-04-22T20:39:36Z","delivery_icon":"fedex","end_date":"2013-05-08T23:30:00Z","event_id":"4164799","hasAliasBool":true,"id":"481380990","priceGroups":"1","quantity":6,"quantity_facet_str":"3
+        tickets|3","quantity_remain":3,"row_desc":"A","sale_method":"1","seats":"1,2,3","section":"236","seller_cobrand":"largesellers","seller_id":"4961986","showTicketKeyStr":"ticketACTIVE4164799","split_option":"2","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"2","ticket_split":1,"time_left":"14d
+        14h 47m","venue_config_sections_id":"228119","zoneid":"38427","zonedesc":"Upper","external_listing_id":"44173","listing_source_id":"6","listing_source_name":"AutoBulkGen3","updateInitiatedTimestamp":"2013-04-24T08:42:01.477Z","currency_code":"USD","list_price":75.0,"dateLastIndexed":"2013-04-24T08:42:03.861Z","fm_dm_rules":["4,2,4.95,,2013-05-08T23:30:00Z","5,1,4.95,,2013-05-07T23:30:00Z"],"fm_dm_rules_desc":["PDF
+        - PreDelivery,Electronic - Instant Download,4.95,,2013-05-08T23:30:00Z","PDF,Electronic
+        - Download,4.95,,2013-05-07T23:30:00Z"]},{"stubhubDocumentId":"ticket-494856440","stubhubDocumentType":"ticket","alias":"Left
+        Field Pavilion 305","aliasStr":"1","comments":"","courier":"0","curr_price":61.95,"curPr":61.95,"date_added":"2013-04-24T00:52:55Z","date_last_modified":"2013-04-24T00:53:09Z","delivery_icon":"fedex","end_date":"2013-09-14T01:10:00Z","event_id":"4172939","hasAliasBool":true,"id":"494856440","priceGroups":"1","quantity":4,"quantity_facet_str":"4
+        tickets|4","quantity_remain":4,"row_desc":"A","sale_method":"1","seats":"General
+        Admission","section":"305 PAV","seller_cobrand":"largesellersrr","seller_id":"5311253","showTicketKeyStr":"ticketACTIVE4172939","split_option":"1","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"3","ticket_split":2,"time_left":"142d
+        16h 27m","venue_config_sections_id":"139852","zoneid":"3752","zonedesc":"Left
+        Field Pavilion","external_listing_id":"22476","listing_source_id":"6","listing_source_name":"AutoBulkGen3","updateInitiatedTimestamp":"2013-04-24T08:42:27.796Z","currency_code":"USD","list_price":54.5,"dateLastIndexed":"2013-04-24T08:42:40.29Z","fm_dm_rules":["3,1,5.45,,2013-09-14T01:10:00Z"],"fm_dm_rules_desc":["Barcode,Electronic
+        - Download,5.45,,2013-09-14T01:10:00Z"]},{"stubhubDocumentId":"ticket-494856103","stubhubDocumentType":"ticket","alias":"Loge
+        109","aliasStr":"1","courier":"0","curr_price":324.0,"curPr":324.0,"date_added":"2013-04-24T00:52:49Z","date_last_modified":"2013-04-24T00:53:14Z","delivery_icon":"fedex","end_date":"2013-10-12T23:00:00Z","event_id":"4259315","hasAliasBool":true,"id":"494856103","priceGroups":"6","quantity":4,"quantity_facet_str":"4
+        tickets|4","quantity_remain":4,"row_desc":"13","sale_method":"1","seats":"General
+        Admission","section":"109","seller_cobrand":"largesellersrr","seller_id":"5311253","showTicketKeyStr":"ticketACTIVE4259315","split_option":"1","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"1","ticket_split":2,"time_left":"171d
+        14h 17m","venue_config_sections_id":"414217","zoneid":"86135","zonedesc":"Loge","external_listing_id":"22725","listing_source_id":"6","listing_source_name":"AutoBulkGen3","updateInitiatedTimestamp":"2013-04-24T08:42:25.147Z","currency_code":"USD","list_price":324.0,"dateLastIndexed":"2013-04-24T08:42:40.811Z","fm_dm_rules":["7,17,15.0,,2013-10-12T23:00:00Z","9,12,15.0,,2013-10-13T03:00:00Z","10,22,19.95,,2013-10-09T19:00:00Z","10,24,11.95,,2013-09-27T19:00:00Z"],"fm_dm_rules_desc":["LMS,Pickup
+        - Event Day,15.0,,2013-10-12T23:00:00Z","LMS - PreDelivery,Pickup,15.0,,2013-10-13T03:00:00Z","UPS,UPS
+        Worldwide Saver,19.95,,2013-10-09T19:00:00Z","UPS,UPS 2nd Day Air - Intra-USA,11.95,,2013-09-27T19:00:00Z"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:52:35 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2BstubhubDocumentType:ticket&rows=1&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '1426'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sat, 27 Apr 2013 08:53:51 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:53:51 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=FBCF476AAF1710AFDC57C7D628D1EAC2; Path=/; Domain=.stubhub.com
+      - TLTSID=FBCF476AAF1710AFDC57C7D628D1EAC2; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:23:51 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":1,"params":{"wt":"json","rows":"1","q":"+stubhubDocumentType:ticket"}},"response":{"numFound":2447434,"start":0,"docs":[{"stubhubDocumentId":"ticket-481944204","stubhubDocumentType":"ticket","alias":"Lower
+        Box 15","aliasStr":"1","courier":"0","curr_price":66.9,"curPr":66.9,"date_added":"2013-01-19T19:05:57Z","date_last_modified":"2013-04-24T03:13:19Z","delivery_icon":"fedex","end_date":"2013-06-29T19:05:00Z","event_id":"4170551","hasAliasBool":true,"id":"481944204","priceGroups":"1","quantity":4,"quantity_facet_str":"4
+        tickets|4","quantity_remain":4,"row_desc":"5","sale_method":"1","seats":"9,10,11,12","section":"15","seller_cobrand":"largesellersrr","seller_id":"1756224","showTicketKeyStr":"ticketPENDING
+        LOCK4170551","split_option":"2","status":"0","system_status":"PENDING LOCK","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"3","ticket_split":1,"time_left":"66d
+        10h 30m","venue_config_sections_id":"140588","zoneid":"3976","zonedesc":"Lower
+        Box","external_listing_id":"8975","listing_source_id":"9","listing_source_name":"TicketTechnology","updateInitiatedTimestamp":"2013-04-24T08:34:09.168Z","currency_code":"USD","list_price":59.0,"dateLastIndexed":"2013-04-24T08:34:16.636Z","fm_dm_rules":["2,2,5.45,,2013-06-30T17:05:00Z"],"fm_dm_rules_desc":["Barcode
+        - PreDelivery (Non-STH),Electronic - Instant Download,5.45,,2013-06-30T17:05:00Z"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:53:51 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2Bevent_id:4170551%20AND%20%2BstubhubDocumentType:event&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '6081'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sat, 27 Apr 2013 08:53:52 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:53:52 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=FBF2A610AF1710AFF8B1A0E4D296DC77; Path=/; Domain=.stubhub.com
+      - TLTSID=FBF2A610AF1710AFF8B1A0E4D296DC77; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:23:52 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":20,"params":{"wt":"json","rows":"5500","q":"+event_id:4170551
+        AND +stubhubDocumentType:event +allowedViewingDomain:stubhub.com"}},"response":{"numFound":1,"start":0,"docs":[{"stubhubDocumentId":"event-4170551","stubhubDocumentType":"event","event_id":"4170551","act_primary":"Texas
+        Rangers","act_secondary":"Cincinnati Reds","id":"4170551","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        28 29 81 115753 4343","ancestorGeoIds":"0 196976 671 672 2921","channel":"Sports
+        tickets","channelId":"28","channelUrlPath":"sports-tickets","channel_facet_str":"Sports
+        tickets|28","city":"Arlington","date_confirm":"2012-11-08T06:00:00Z","date_inhand":"2013-02-24T19:00:00Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2012-11-09T17:15:47Z","description":"Cincinnati
+        Reds at Texas Rangers Tickets (Kids Bat Day Giveaway)","desc_sort":"Cincinnati
+        Reds at Texas Rangers Tickets (Kids Bat Day Giveaway)","eventDate_facet_str":"June,
+        2013|2013-06","eventGenreParentDescription_facet_str":"Texas Rangers Tickets|4343","eventGeoDescription":"Rangers
+        Ballpark in Arlington","eventGeoDescription_text":"Rangers Ballpark in Arlington","eventLocation_facet_str":"Texas,
+        Dallas|672","event_date":"2013-06-30T19:05:00Z","event_date_local":"2013-06-30","event_date_time_local":"2013-06-30T14:05:00Z","event_time_local":"14:05:00","event_type":"4170551","evt_segmentation_id":"0","genreDateDesc":"","genreUrlPath":"texas-rangers-tickets","genre_grand_parent_id":"115753","genre_grand_parent_name":"2013
+        MLB Regular Season Tickets","genre_parent":"4343","genre_parent_name":"Texas
+        Rangers Tickets","geoEventTypes":"stadium-venues","geoUrlPath":"rangers-ballpark-tickets","geography_parent":"2921","hide_event_date":"0","image_url":"stubhub_208391_RangersBallparkArlington_Basebasll.png","is_eticket_allowed":"0","is_integrated_team":"Y","keywords":"Texas
+        Rangers Cincinnati Reds, Rangers Cincinnati, Rangers vs Reds, Texas Rangers
+        v Cincinnati Reds, June 30 Rangers Ballpark in Arlington, Rangers Ballpark
+        in Arlington, Texas Rangers vs Cincinnati Reds 6/30, ticket, tickets, buy,
+        sell","last_chance":"2013-06-30T19:05:00Z","maxPrice":1000.0,"maxSeatsTogether":20.0,"meta_description":"Rangers
+        - Reds Tickets - Buy and Sell Cincinnati Reds vs Texas Rangers Tickets for
+        June 30 at Rangers Ballpark in Arlington in Arlington, TX on StubHub!","minPrice":8.49,"minSeatsTogether":1.0,"name_primary":"Rangers
+        vs Reds","name_secondary":"Cincinnati Reds","nickname":"texas-rangers","seo_description":"Cincinnati
+        Reds at Texas Rangers","seo_title":"Rangers - Reds Tickets - 2013-6-30","spark_event_flag":"0","state":"TX","threeLevelsUpIds":"4343
+        115753 81","title":"Texas Rangers vs Cincinnati Reds [06/30/2013] Tickets
+        on StubHub!","totalPostings":1175,"totalTickets":5000.0,"type_id":"0","urlpath":"rangers-vs-reds-6-30-2013-4170551","urlpathid":"2212886","venue_config_id":"208391","venue_name":"Rangers
+        Ballpark in Arlington","venue_name_text":"Rangers Ballpark in Arlington","venueconfigurationid":"208391","zip":"76011","zoneDescriptions":"|All
+        You Can Eat |All You Can Eat Porch |Batter''s Eye Club |Bleachers |Bullpen
+        Suite |Bullpen Suites |Capital One Club |Center Field Rail |Commisioners Box
+        |Commissioners Box |Corner Box |Cuervo Club |Dinner Suites |Grandstand Reserved
+        |Hall Of Fame Suites |Hall of Fame Suites |Home Plate Seats |Jose Cuervo Club
+        |Lexus Club Box |Lexus Club Infield |Lexus Club Terrace |Lower Box |Lower
+        Infield |Lower Reserved |Outfield Plaza |Party Suites |Porch |Premium Infield
+        |Standing Room Only |Upper Box |Upper HR Porch |Upper Home Run Porch |Upper
+        Homerun Porch |Upper Reserved |VIP Home Plate |VIP Infield","zoneIds":"69692
+        60058 72791 3982 3990 20775 88791 85979 42775 3988 3977 63691 3991 3986 3992
+        20776 20582 3987 3979 3978 3980 3976 3975 3981 74131 3993 63591 3974 3989
+        3984 3983 42776 20774 3985 88792 3973","pageType":"bigsports","sportsTeam":"4343","gameType":"regular","tabName":"Rangers
+        Home","espnUrlPath":"sports/baseball/mlb/teams/13","espnAbbr":"TEX","is_event_package":"0","latitude":32.75108,"longitude":-97.08254,"lat_lon":"32.751079,-97.08254","date_added":"2012-11-09T17:15:47Z","event_status_id":2,"timezone":"CST","timezone_id":"3","venue_config_name":"Baseball
+        - Flash","updateInitiatedTimestamp":"2013-04-27T08:48:13.653Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"5","event_config_template":"Professional
+        Team Sports","venue_configuration_version":"18","keywords_en_US":"Texas Rangers
+        Cincinnati Reds, Rangers Cincinnati, Rangers vs Reds, Texas Rangers v Cincinnati
+        Reds, June 30 Rangers Ballpark in Arlington, Rangers Ballpark in Arlington,
+        Texas Rangers vs Cincinnati Reds 6/30, ticket, tickets, buy, sell","event_type_en_US":"4170551","seo_title_en_US":"Rangers
+        - Reds Tickets - 2013-6-30","seo_description_en_US":"Cincinnati Reds at Texas
+        Rangers","name_primary_en_US":"Rangers vs Reds","name_secondary_en_US":"Cincinnati
+        Reds","act_primary_en_US":"Texas Rangers","act_secondary_en_US":"Cincinnati
+        Reds","title_en_US":"Texas Rangers vs Cincinnati Reds [06/30/2013] Tickets
+        on StubHub!","meta_description_en_US":"Rangers - Reds Tickets - Buy and Sell
+        Cincinnati Reds vs Texas Rangers Tickets for June 30 at Rangers Ballpark in
+        Arlington in Arlington, TX on StubHub!","event_description_en_US":"Cincinnati
+        Reds at Texas Rangers Tickets (Kids Bat Day Giveaway)","jdk_timezone":"US/Central","ptv_integrated_event_ind":1,"venueDetailUrlPath":"rangers-ballpark","access_control_method":1,"is_scrubbing_enabled":"1","view_from_section_ind":1,"bundled_type":"2","hide_event_time":0,"minListPrice":5.49,"dateLastIndexed":"2013-04-27T08:48:26.8Z","genreStartingAlphabet":["t"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Texas","Dallas","Rangers Ballpark in Arlington"],"ancestorGenreDescriptions":["All
+        tickets","Sports tickets","Baseball Tickets","2013 MLB Tickets","2013 MLB
+        Regular Season Tickets","Texas Rangers Tickets"],"visitingTeam":["4862"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:53:52 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2Bevent_id:4170551%20AND%20%2BstubhubDocumentType:ticket&rows=2&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '2897'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sat, 27 Apr 2013 08:53:52 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:53:52 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=FC206B90AF1710AFDC4EA822F1178592; Path=/; Domain=.stubhub.com
+      - TLTSID=FC206B90AF1710AFDC4EA822F1178592; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:23:52 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":3,"params":{"wt":"json","rows":"2","q":"+event_id:4170551
+        AND +stubhubDocumentType:ticket"}},"response":{"numFound":992,"start":0,"docs":[{"stubhubDocumentId":"ticket-483238645","stubhubDocumentType":"ticket","alias":"Upper
+        Box 331","aliasStr":"1","courier":"0","curr_price":31.7,"curPr":31.7,"date_added":"2013-01-24T18:32:01Z","date_last_modified":"2013-04-24T18:25:33Z","delivery_icon":"fedex","end_date":"2013-06-30T17:05:00Z","event_id":"4170551","hasAliasBool":true,"id":"483238645","priceGroups":"0","quantity":17,"quantity_facet_str":"9
+        tickets|9","quantity_remain":9,"row_desc":"2","sale_method":"1","seats":"9,10,11,12,13,14,15,16,17","section":"331L","seller_cobrand":"www","seller_id":"1160782","showTicketKeyStr":"ticketACTIVE4170551","split_option":"2","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"3","ticket_split":1,"time_left":"66d
+        22h 39m","venue_config_sections_id":"140716","zoneid":"3984","zonedesc":"Upper
+        Box","listing_source_id":"7","listing_source_name":"IndyGen3","updateInitiatedTimestamp":"2013-04-24T18:25:44.362Z","currency_code":"USD","list_price":27.0,"dateLastIndexed":"2013-04-24T18:25:45.025Z","fm_dm_rules":["2,2,5.45,,2013-06-30T17:05:00Z"],"fm_dm_rules_desc":["Barcode
+        - PreDelivery (Non-STH),Electronic - Instant Download,5.45,,2013-06-30T17:05:00Z"]},{"stubhubDocumentId":"ticket-484005766","stubhubDocumentType":"ticket","alias":"Commissioners
+        Box - Third base","aliasStr":"1","courier":"0","curr_price":139.5,"curPr":139.5,"date_added":"2013-01-30T18:47:01Z","date_last_modified":"2013-04-24T18:45:43Z","delivery_icon":"fedex","end_date":"2013-06-30T17:05:00Z","event_id":"4170551","hasAliasBool":true,"id":"484005766","priceGroups":"2","quantity":2,"quantity_facet_str":"2
+        tickets|2","quantity_remain":2,"row_desc":"2","sale_method":"1","seats":"1,2","section":"COMBX3","seller_cobrand":"www","seller_id":"826179","showTicketKeyStr":"ticketACTIVE4170551","split_option":"0","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"3","ticket_split":2,"time_left":"66d
+        22h 19m","venue_config_sections_id":"196003","structuredCommentsDescription":"|Padded
+        seats |Within 10 rows of field |Directly beside the dugout","structuredTicketFeatures":"|Aisle","structuredCommentsIds":"962
+        1095 1113","structuredTicketFeaturesIds":"101","structuredTicketFeaturesTypes":"|Ticket
+        Feature","zoneid":"42775","zonedesc":"Commisioners Box","listing_source_id":"7","listing_source_name":"IndyGen3","updateInitiatedTimestamp":"2013-04-24T18:45:50.804Z","currency_code":"USD","list_price":125.0,"dateLastIndexed":"2013-04-24T18:45:51.087Z","fm_dm_rules":["2,2,5.45,,2013-06-30T17:05:00Z"],"fm_dm_rules_desc":["Barcode
+        - PreDelivery (Non-STH),Electronic - Instant Download,5.45,,2013-06-30T17:05:00Z"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:53:52 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2Bdescription:%22above%20and%20beyond%22%20AND%20%2BstubhubDocumentType:event&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '18413'
+      Expires:
+      - Sat, 27 Apr 2013 08:53:52 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:53:52 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=FC5053F0AF1710AFC735FFCC810DA585; Path=/; Domain=.stubhub.com
+      - TLTSID=FC5053F0AF1710AFC735FFCC810DA585; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:23:52 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":2,"params":{"wt":"json","rows":"5500","q":"+description:\"above
+        and beyond\" AND +stubhubDocumentType:event +allowedViewingDomain:stubhub.com"}},"response":{"numFound":4,"start":0,"docs":[{"stubhubDocumentId":"event-4259348","stubhubDocumentType":"event","event_id":"4259348","act_primary":"Above
+        and Beyond","id":"4259348","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63910 494083","ancestorGeoIds":"0 196976 673 674 180347","channel":"Concert
+        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
+        tickets|1","city":"Boston","date_confirm":"2013-03-18T17:16:37Z","date_inhand":"2013-03-19T17:16:37Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2013-03-19T17:16:37Z","description":"Above
+        and Beyond Tickets (18+ Event)","desc_sort":"Above and Beyond Tickets (18+
+        Event)","eventDate_facet_str":"May, 2013|2013-05","eventGenreParentDescription_facet_str":"Above
+        and Beyond Tickets|494083","eventGeoDescription":"Royale Boston","eventGeoDescription_text":"Royale
+        Boston","eventLocation_facet_str":"Massachusetts, Boston|674","event_date":"2013-05-22T00:00:00Z","event_date_local":"2013-05-21","event_date_time_local":"2013-05-21T20:00:00Z","event_time_local":"20:00:00","event_type":"4259348,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        A - C","genre_parent":"494083","genre_parent_name":"Above and Beyond Tickets","geoEventTypes":"","geoUrlPath":"royale-boston-tickets","geography_parent":"180347","hide_event_date":"0","image_url":"stubhub_463220_GA_generic.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-22T00:00:00Z","maxPrice":200.0,"maxSeatsTogether":8.0,"meta_description":"Above
+        and Beyond Royale Boston Tickets - Buy and sell Above and Beyond Boston Tickets
+        for May 21 at Royale Boston in Boston, MA on StubHub!","minPrice":50.0,"minSeatsTogether":1.0,"name_primary":"Royale
+        Boston","name_secondary":"Above and Beyond","nickname":"concerts","seo_description":"Above
+        and Beyond at Royale Boston","seo_title":"Above and Beyond Royale Boston Boston
+        Tickets - 2013-5-21","spark_event_flag":"0","state":"MA","threeLevelsUpIds":"494083
+        63910 1","title":"Above and Beyond Boston Tickets - Above and Beyond 05/21/2013
+        Royale Boston Tickets on StubHub!","totalPostings":17,"totalTickets":59.0,"type_id":"0","urlpath":"above-and-beyond-boston-royale-boston-21-5-2013-4259348","urlpathid":"2306346","venue_config_id":"463220","venue_name":"Royale
+        Boston","venue_name_text":"Royale Boston","venueconfigurationid":"463220","zip":"02116","artistPrimaryStyle":"195489","is_event_package":"0","latitude":42.349953,"longitude":-71.10707,"lat_lon":"42.349952,-71.10707","date_added":"2013-03-19T17:16:37Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"General
+        Admission","updateInitiatedTimestamp":"2013-04-27T08:00:34.034Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","event_type_en_US":"4259348,","seo_title_en_US":"Above
+        and Beyond Royale Boston Boston Tickets - 2013-5-21","seo_description_en_US":"Above
+        and Beyond at Royale Boston","name_primary_en_US":"Royale Boston","name_secondary_en_US":"Above
+        and Beyond","act_primary_en_US":"Above and Beyond","title_en_US":"Above and
+        Beyond Boston Tickets - Above and Beyond 05/21/2013 Royale Boston Tickets
+        on StubHub!","meta_description_en_US":"Above and Beyond Royale Boston Tickets
+        - Buy and sell Above and Beyond Boston Tickets for May 21 at Royale Boston
+        in Boston, MA on StubHub!","event_description_en_US":"Above and Beyond Tickets
+        (18+ Event)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"royale-boston","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":50.0,"dateLastIndexed":"2013-04-27T08:01:49.355Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Massachusetts","Boston","Royale Boston"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists A - C","Above and Beyond Tickets"]},{"stubhubDocumentId":"event-4267610","stubhubDocumentType":"event","event_id":"4267610","act_primary":"Above
+        and Beyond","id":"4267610","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63910 494083","ancestorGeoIds":"0 196976 673 674 180347","channel":"Concert
+        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
+        tickets|1","city":"Boston","date_confirm":"2013-04-11T00:25:15Z","date_inhand":"2013-04-12T00:25:15Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2013-04-12T00:25:15Z","description":"Above
+        And Beyond Tickets (21+ Event)","desc_sort":"Above And Beyond Tickets (21+
+        Event)","eventDate_facet_str":"May, 2013|2013-05","eventGenreParentDescription_facet_str":"Above
+        and Beyond Tickets|494083","eventGeoDescription":"Royale Boston","eventGeoDescription_text":"Royale
+        Boston","eventLocation_facet_str":"Massachusetts, Boston|674","event_date":"2013-05-21T00:00:00Z","event_date_local":"2013-05-20","event_date_time_local":"2013-05-20T20:00:00Z","event_time_local":"20:00:00","event_type":"4267610,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        A - C","genre_parent":"494083","genre_parent_name":"Above and Beyond Tickets","geoEventTypes":"","geoUrlPath":"royale-boston-tickets","geography_parent":"180347","hide_event_date":"0","image_url":"stubhub_463220_GA_generic.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-21T00:00:00Z","maxPrice":125.0,"maxSeatsTogether":6.0,"meta_description":"Above
+        and Beyond Royale Boston Tickets - Buy and sell Above and Beyond Boston Tickets
+        for May 20 at Royale Boston in Boston, MA on StubHub!","minPrice":64.5,"minSeatsTogether":2.0,"name_primary":"Royale
+        Boston","name_secondary":"Above and Beyond","nickname":"concerts","seo_description":"Above
+        and Beyond at Royale Boston","seo_title":"Above and Beyond Royale Boston Boston
+        Tickets - 2013-5-20","spark_event_flag":"0","state":"MA","threeLevelsUpIds":"494083
+        63910 1","title":"Above and Beyond Boston Tickets - Above and Beyond 05/20/2013
+        Royale Boston Tickets on StubHub!","totalPostings":3,"totalTickets":10.0,"type_id":"0","urlpath":"above-and-beyond-boston-royale-boston-20-5-2013-4267610","urlpathid":"2315483","venue_config_id":"463220","venue_name":"Royale
+        Boston","venue_name_text":"Royale Boston","venueconfigurationid":"463220","zip":"02116","artistPrimaryStyle":"195489","is_event_package":"0","latitude":42.349953,"longitude":-71.10707,"lat_lon":"42.349952,-71.10707","date_added":"2013-04-12T00:25:15Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"General
+        Admission","updateInitiatedTimestamp":"2013-04-27T08:00:34.036Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","event_type_en_US":"4267610,","seo_title_en_US":"Above
+        and Beyond Royale Boston Boston Tickets - 2013-5-20","seo_description_en_US":"Above
+        and Beyond at Royale Boston","name_primary_en_US":"Royale Boston","name_secondary_en_US":"Above
+        and Beyond","act_primary_en_US":"Above and Beyond","title_en_US":"Above and
+        Beyond Boston Tickets - Above and Beyond 05/20/2013 Royale Boston Tickets
+        on StubHub!","meta_description_en_US":"Above and Beyond Royale Boston Tickets
+        - Buy and sell Above and Beyond Boston Tickets for May 20 at Royale Boston
+        in Boston, MA on StubHub!","event_description_en_US":"Above And Beyond Tickets
+        (21+ Event)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"royale-boston","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":64.5,"dateLastIndexed":"2013-04-27T08:01:52.677Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Massachusetts","Boston","Royale Boston"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists A - C","Above and Beyond Tickets"]},{"stubhubDocumentId":"event-4262936","stubhubDocumentType":"event","event_id":"4262936","act_primary":"Above
+        And Beyond","id":"4262936","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63910 494083","ancestorGeoIds":"0 196976 688 689 212858","channel":"Concert
+        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
+        tickets|1","city":"Las Vegas","date_confirm":"2013-03-27T20:54:55Z","date_inhand":"2013-03-28T20:54:55Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2013-03-28T20:54:55Z","description":"Above
+        And Beyond Tickets (21+ Event)","desc_sort":"Above And Beyond Tickets (21+
+        Event)","eventDate_facet_str":"May, 2013|2013-05","eventGenreParentDescription_facet_str":"Above
+        and Beyond Tickets|494083","eventGeoDescription":"Surrender Nightclub at Encore","eventGeoDescription_text":"Surrender
+        Nightclub at Encore","eventLocation_facet_str":"Nevada, Las Vegas|689","event_date":"2013-05-27T05:30:00Z","event_date_local":"2013-05-26","event_date_time_local":"2013-05-26T22:30:00Z","event_time_local":"22:30:00","event_type":"4262936,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        A - C","genre_parent":"494083","genre_parent_name":"Above and Beyond Tickets","geoEventTypes":"clubs-bars-theater-venues","geoUrlPath":"surrender-nightclub-at-encore-tickets","geography_parent":"212858","hide_event_date":"0","image_url":"stubhub_594992_NightclubMaleFemaleGA_TextOnly.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Above
+        And Beyond, , Above And Beyond Surrender Nightclub at Encore, Above And Beyond
+        Las Vegas,Above And Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-27T05:30:00Z","maxPrice":0.0,"maxSeatsTogether":0.0,"meta_description":"Above
+        And Beyond Surrender Nightclub at Encore Tickets - Buy and sell Above And
+        Beyond Las Vegas Tickets for May 26 at Surrender Nightclub at Encore in Las
+        Vegas, NV on StubHub!","minPrice":0.0,"minSeatsTogether":0.0,"name_primary":"Surrender
+        Nightclub at Encore","name_secondary":"Above And Beyond","nickname":"concerts","seo_description":"Above
+        And Beyond at Surrender Nightclub at Encore","seo_title":"Above And Beyond
+        Surrender Nightclub at Encore Las Vegas Tickets - 2013-5-26","spark_event_flag":"0","state":"NV","threeLevelsUpIds":"494083
+        63910 1","title":"Above And Beyond Las Vegas Tickets - Above And Beyond 05/26/2013
+        Surrender Nightclub at Encore Tickets on StubHub!","totalPostings":0,"totalTickets":0.0,"type_id":"0","urlpath":"above-and-beyond-las-vegas-surrender-nightclub-at-encore-26-5-2013-4262936","urlpathid":"2311009","venue_config_id":"594992","venue_name":"Surrender
+        Nightclub at Encore","venue_name_text":"Surrender Nightclub at Encore","venueconfigurationid":"594992","zip":"89109","zoneDescriptions":"|General
+        Admission - Female |General Admission - Male","zoneIds":"83049 83050","artistPrimaryStyle":"195489","is_event_package":"0","date_added":"2013-03-28T20:54:55Z","event_status_id":2,"timezone":"PST","timezone_id":"5","venue_config_name":"Male
+        and Female General Admission","updateInitiatedTimestamp":"2013-04-27T08:00:34.039Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
+        And Beyond, , Above And Beyond Surrender Nightclub at Encore, Above And Beyond
+        Las Vegas,Above And Beyond Concert, buy, sell, ticket, tickets","event_type_en_US":"4262936,","seo_title_en_US":"Above
+        And Beyond Surrender Nightclub at Encore Las Vegas Tickets - 2013-5-26","seo_description_en_US":"Above
+        And Beyond at Surrender Nightclub at Encore","name_primary_en_US":"Surrender
+        Nightclub at Encore","name_secondary_en_US":"Above And Beyond","act_primary_en_US":"Above
+        And Beyond","title_en_US":"Above And Beyond Las Vegas Tickets - Above And
+        Beyond 05/26/2013 Surrender Nightclub at Encore Tickets on StubHub!","meta_description_en_US":"Above
+        And Beyond Surrender Nightclub at Encore Tickets - Buy and sell Above And
+        Beyond Las Vegas Tickets for May 26 at Surrender Nightclub at Encore in Las
+        Vegas, NV on StubHub!","event_description_en_US":"Above And Beyond Tickets
+        (21+ Event)","jdk_timezone":"US/Pacific","ptv_integrated_event_ind":0,"venueDetailUrlPath":"surrender-nightclub-at-encore","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":0.0,"dateLastIndexed":"2013-04-27T08:02:02.357Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Nevada","Las Vegas","Surrender Nightclub at Encore"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists A - C","Above and Beyond Tickets"]},{"stubhubDocumentId":"event-4258863","stubhubDocumentType":"event","event_id":"4258863","act_primary":"Above
+        and Beyond","id":"4258863","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63910 494083","ancestorGeoIds":"0 196976 673 674 180347","channel":"Concert
+        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
+        tickets|1","city":"Boston","date_confirm":"2013-03-18T17:17:03Z","date_inhand":"2013-03-19T17:17:03Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2013-03-19T17:17:03Z","description":"Above
+        and Beyond Tickets (21+ Event)","desc_sort":"Above and Beyond Tickets (21+
+        Event)","eventDate_facet_str":"May, 2013|2013-05","eventGenreParentDescription_facet_str":"Above
+        and Beyond Tickets|494083","eventGeoDescription":"Royale Boston","eventGeoDescription_text":"Royale
+        Boston","eventLocation_facet_str":"Massachusetts, Boston|674","event_date":"2013-05-23T02:00:00Z","event_date_local":"2013-05-22","event_date_time_local":"2013-05-22T22:00:00Z","event_time_local":"22:00:00","event_type":"4258863,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        A - C","genre_parent":"494083","genre_parent_name":"Above and Beyond Tickets","geoEventTypes":"","geoUrlPath":"royale-boston-tickets","geography_parent":"180347","hide_event_date":"0","image_url":"stubhub_463220_GA_generic.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-23T02:00:00Z","maxPrice":200.0,"maxSeatsTogether":8.0,"meta_description":"Above
+        and Beyond Royale Boston Tickets - Buy and sell Above and Beyond Boston Tickets
+        for May 22 at Royale Boston in Boston, MA on StubHub!","minPrice":45.0,"minSeatsTogether":1.0,"name_primary":"Royale
+        Boston","name_secondary":"Above and Beyond","nickname":"concerts","seo_description":"Above
+        and Beyond at Royale Boston","seo_title":"Above and Beyond Royale Boston Boston
+        Tickets - 2013-5-22","spark_event_flag":"0","state":"MA","threeLevelsUpIds":"494083
+        63910 1","title":"Above and Beyond Boston Tickets - Above and Beyond 05/22/2013
+        Royale Boston Tickets on StubHub!","totalPostings":25,"totalTickets":80.0,"type_id":"0","urlpath":"above-and-beyond-boston-royale-boston-22-5-2013-4258863","urlpathid":"2306101","venue_config_id":"463220","venue_name":"Royale
+        Boston","venue_name_text":"Royale Boston","venueconfigurationid":"463220","zip":"02116","artistPrimaryStyle":"195489","is_event_package":"0","latitude":42.349953,"longitude":-71.10707,"lat_lon":"42.349952,-71.10707","date_added":"2013-03-19T17:17:03Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"General
+        Admission","updateInitiatedTimestamp":"2013-04-27T08:36:35.870Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","event_type_en_US":"4258863,","seo_title_en_US":"Above
+        and Beyond Royale Boston Boston Tickets - 2013-5-22","seo_description_en_US":"Above
+        and Beyond at Royale Boston","name_primary_en_US":"Royale Boston","name_secondary_en_US":"Above
+        and Beyond","act_primary_en_US":"Above and Beyond","title_en_US":"Above and
+        Beyond Boston Tickets - Above and Beyond 05/22/2013 Royale Boston Tickets
+        on StubHub!","meta_description_en_US":"Above and Beyond Royale Boston Tickets
+        - Buy and sell Above and Beyond Boston Tickets for May 22 at Royale Boston
+        in Boston, MA on StubHub!","event_description_en_US":"Above and Beyond Tickets
+        (21+ Event)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"royale-boston","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":45.0,"dateLastIndexed":"2013-04-27T08:36:47.32Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Massachusetts","Boston","Royale Boston"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists A - C","Above and Beyond Tickets"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:53:52 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2Bevent_id:4187540%20AND%20%2BstubhubDocumentType:event&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '5443'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sat, 27 Apr 2013 08:53:53 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:53:53 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=FC8DD784AF1710AFF532C9A1B2B1EE1F; Path=/; Domain=.stubhub.com
+      - TLTSID=FC8DD784AF1710AFF532C9A1B2B1EE1F; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:23:53 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":1,"params":{"wt":"json","rows":"5500","q":"+event_id:4187540
+        AND +stubhubDocumentType:event +allowedViewingDomain:stubhub.com"}},"response":{"numFound":1,"start":0,"docs":[{"stubhubDocumentId":"event-4187540","stubhubDocumentType":"event","event_id":"4187540","act_primary":"2013
+        AMT Christmas Show","id":"4187540","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63910 726864","ancestorGeoIds":"0 196976 521 522 63483","channel":"Concert
+        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
+        tickets|1","city":"Lancaster","date_confirm":"2012-12-06T17:55:16Z","date_inhand":"2012-12-07T19:30:16Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2012-12-07T17:55:17Z","description":"2013
+        AMT Christmas Show: The First Noel Tickets","desc_sort":"2013 AMT Christmas
+        Show: The First Noel Tickets","eventDate_facet_str":"December, 2013|2013-12","eventGenreParentDescription_facet_str":"AMT
+        Christmas Show Tickets|726864","eventGeoDescription":"American Music Theatre
+        - Lancaster","eventGeoDescription_text":"American Music Theatre - Lancaster","eventLocation_facet_str":"Pennsylvania,
+        Philadelphia|522","event_date":"2013-12-07T00:30:00Z","event_date_local":"2013-12-06","event_date_time_local":"2013-12-06T19:30:00Z","event_time_local":"19:30:00","event_type":"4187540,
+        ","evt_segmentation_id":"0","genreDateDesc":"music-genre-alternative-music-tickets","genreUrlPath":"amt-christmas-show-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        A - C","genre_parent":"726864","genre_parent_name":"AMT Christmas Show Tickets","geoEventTypes":"clubs-bars-theater-venues","geoUrlPath":"american-music-theater-lancaster-tickets","geography_parent":"63483","hide_event_date":"0","image_url":"stubhub_73510_AmericanMusicTheater_Concert.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"2013
+        AMT Christmas Show, , 2013 AMT Christmas Show American Music Theatre - Lancaster,
+        2013 AMT Christmas Show Lancaster,2013 AMT Christmas Show Concert, buy, sell,
+        ticket, tickets","last_chance":"2013-12-07T00:30:00Z","maxPrice":78.0,"maxSeatsTogether":6.0,"meta_description":"2013
+        AMT Christmas Show American Music Theatre - Lancaster Tickets - Buy and sell
+        2013 AMT Christmas Show Lancaster Tickets for December 6 at American Music
+        Theatre - Lancaster in Lancaster, PA on StubHub!","minPrice":78.0,"minSeatsTogether":6.0,"name_primary":"American
+        Music Theatre - Lancaster","name_secondary":"2013 AMT Christmas Show","nickname":"family","seo_description":"2013
+        AMT Christmas Show at American Music Theatre - Lancaster","seo_title":"2013
+        AMT Christmas Show American Music Theatre - Lancaster Lancaster Tickets -
+        2013-12-6","spark_event_flag":"0","state":"PA","threeLevelsUpIds":"726864
+        63910 1","title":"2013 AMT Christmas Show Lancaster Tickets - 2013 AMT Christmas
+        Show 12/06/2013 American Music Theatre - Lancaster Tickets on StubHub!","totalPostings":1,"totalTickets":6.0,"type_id":"0","urlpath":"2013-amt-christmas-show-lancaster-american-music-theatre---lancaster-6-12-2013-4187540","urlpathid":"2230804","venue_config_id":"73510","venue_name":"American
+        Music Theatre - Lancaster","venue_name_text":"American Music Theatre - Lancaster","venueconfigurationid":"73510","zip":"17605","artistPrimaryStyle":"178738","is_event_package":"0","latitude":40.02485,"longitude":-76.200516,"lat_lon":"40.0248492,-76.200516","date_added":"2012-12-07T17:55:17Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"Theater","updateInitiatedTimestamp":"2013-04-27T02:14:19.576Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"2013
+        AMT Christmas Show, , 2013 AMT Christmas Show American Music Theatre - Lancaster,
+        2013 AMT Christmas Show Lancaster,2013 AMT Christmas Show Concert, buy, sell,
+        ticket, tickets","event_type_en_US":"4187540, ","seo_title_en_US":"2013 AMT
+        Christmas Show American Music Theatre - Lancaster Lancaster Tickets - 2013-12-6","seo_description_en_US":"2013
+        AMT Christmas Show at American Music Theatre - Lancaster","name_primary_en_US":"American
+        Music Theatre - Lancaster","name_secondary_en_US":"2013 AMT Christmas Show","act_primary_en_US":"2013
+        AMT Christmas Show","title_en_US":"2013 AMT Christmas Show Lancaster Tickets
+        - 2013 AMT Christmas Show 12/06/2013 American Music Theatre - Lancaster Tickets
+        on StubHub!","meta_description_en_US":"2013 AMT Christmas Show American Music
+        Theatre - Lancaster Tickets - Buy and sell 2013 AMT Christmas Show Lancaster
+        Tickets for December 6 at American Music Theatre - Lancaster in Lancaster,
+        PA on StubHub!","event_description_en_US":"2013 AMT Christmas Show: The First
+        Noel Tickets","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"american-music-theater-lancaster","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":78.0,"dateLastIndexed":"2013-04-27T02:14:19.787Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Pennsylvania","Philadelphia","American Music Theatre
+        - Lancaster"],"artistSecondaryStyle":["195743"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists A - C","AMT Christmas Show Tickets"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:53:53 GMT
 recorded_with: VCR 2.4.0

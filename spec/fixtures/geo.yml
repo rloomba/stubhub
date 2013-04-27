@@ -605,4 +605,749 @@ http_interactions:
         By Geography","date_last_modified":"2013-02-11T19:26:34Z","date_added":"2012-09-28T21:36:28Z","venueDetailUrlPath":"bob-bullock-texas-state-history-museum","venueDetailUrlPathId":"2191544","dateLastIndexed":"2013-04-01T12:42:37.868Z","locale":["en_US"]}]}}'
     http_version: 
   recorded_at: Mon, 01 Apr 2013 23:33:43 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2BgeoId:81989%20AND%20%2BstubhubDocumentType:geo&rows=1&start=0&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '2762'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sat, 27 Apr 2013 08:52:36 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:52:36 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=CEE1598CAF1710AFEAE8C5C52634E154; Path=/; Domain=.stubhub.com
+      - TLTSID=CEE1598CAF1710AFEAE8C5C52634E154; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:22:36 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":2,"params":{"wt":"json","rows":"10","start":"0","q":"+geoId:81989
+        AND +stubhubDocumentType:geo"}},"response":{"numFound":1,"start":0,"docs":[{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-81989","active":"1","deleted":"0","description":"Bob
+        Hope Theatre","desc_sort":"Bob Hope Theatre","geoId":"81989","id":"81989","hidden":"0","ancestorGeoIds":"81989
+        81 4 196976 0","ancestorKeywords":"Bob Hope Theatre seating chart box office
+        address capacity floor plan best seats images parking directions to details
+        information restaurants SF Bay Area event ticketsSF Bay Area Venues events
+        in SF Bay Areatickets for events in SF Bay Area sfbay sf s.f. bay California
+        event ticketsCalifornia Venues events in Californiatickets for events in California
+        ca cali cal United States event tickets United States Venues events in United
+        States tickets for events in United States event tickets by city","categorySearchKeywords":"Bob
+        Hope Theatre Bob Hope Theatre - Info and Details - StubHub! All the information
+        you need on Bob Hope Theatre like seating charts directions box office address.
+        Find nearby parking restaurants and hotels near Bob Hope Theatre on StubHub!
+        Bob Hope Theatre seating chart box office address capacity floor plan best
+        seats images parking directions to details information restaurants Bob Hope
+        Theatre Bob Hope Theatre Bob Hope Theatre Bob Hope Theatre clubs-bars-theater-venues
+        Bob Hope Theatre","categoryType":"geo","channel":"United States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"clubs-bars-theater-venues","fullDescription":"SF
+        Bay Area, California in Bob Hope Theatre","isValidCategorySearchResult":"1","keywords":"Bob
+        Hope Theatre seating chart, box office, address, capacity, floor plan, best
+        seats, images, parking, directions to, details, information, restaurants","leaf":"true","localeDescription":"SF
+        Bay Area, California","meta_description":"All the information you need on
+        Bob Hope Theatre, like seating charts, directions, box office, address. Find
+        nearby parking, restaurants and hotels near Bob Hope Theatre on StubHub!","name_primary":"Bob
+        Hope Theatre","name_secondary":"Bob Hope Theatre","parent_id":"81","season_venue_flag":"0","seo_description":"Bob
+        Hope Theatre","seo_title":"Bob Hope Theatre","threeLevelsUpIds":"81989 81
+        4","title":"Bob Hope Theatre - Info and Details - StubHub!","urlpath":"bob-hope-theatre-event-tickets","urlpathid":"123778","ancestorDescription":"Bob
+        Hope Theatre SF Bay Area California United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","venueDetailUrlPath":"bob-hope-theatre","venueDetailUrlPathId":"2069426","dateLastIndexed":"2013-04-25T12:50:18.975Z","locale":["en_US"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:52:36 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2BlocaleDescription:%22SF%20Bay%20Area%22%20AND%20%2BstubhubDocumentType:geo&rows=2&start=0&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '29696'
+      Expires:
+      - Sat, 27 Apr 2013 08:52:36 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:52:36 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=CF0B23ACAF1710AFEAEBC5C52634E154; Path=/; Domain=.stubhub.com
+      - TLTSID=CF0B23ACAF1710AFEAEBC5C52634E154; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:22:36 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":12,"params":{"wt":"json","rows":"10","start":"0","q":"+localeDescription:\"SF
+        Bay Area\" AND +stubhubDocumentType:geo"}},"response":{"numFound":334,"start":0,"docs":[{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-43080","active":"1","deleted":"0","description":"Ironstone
+        Amphitheatre at Ironstone Vineyards","desc_sort":"Ironstone Amphitheatre at
+        Ironstone Vineyards","geoId":"43080","id":"43080","hidden":"0","ancestorGeoIds":"43080
+        81 4 196976 0","ancestorKeywords":"Ironstone Amphitheatre at Ironstone Vineyards
+        seating chart box office address capacity floor plan best seats images parking
+        directions to details information restaurants SF Bay Area event ticketsSF
+        Bay Area Venues events in SF Bay Areatickets for events in SF Bay Area sfbay
+        sf s.f. bay California event ticketsCalifornia Venues events in Californiatickets
+        for events in California ca cali cal United States event tickets United States
+        Venues events in United States tickets for events in United States event tickets
+        by city","categorySearchKeywords":"Ironstone Amphitheatre at Ironstone Vineyards
+        Ironstone Amphitheatre at Ironstone Vineyards - Info and Details - StubHub!
+        All the information you need on Ironstone Amphitheatre at Ironstone Vineyards
+        like seating charts directions box office address. Find nearby parking restaurants
+        and hotels near Ironstone Amphitheatre at Ironstone Vineyards on StubHub!
+        Ironstone Amphitheatre at Ironstone Vineyards seating chart box office address
+        capacity floor plan best seats images parking directions to details information
+        restaurants Ironstone Amphitheatre at Ironstone Vineyards Ironstone Amphitheatre
+        at Ironstone Vineyards Ironstone Amphitheatre at Ironstone Vineyards Ironstone
+        Amphitheatre at Ironstone Vineyards outdoor-venues Ironstone Amphitheatre
+        at Ironstone Vineyards","categoryType":"geo","channel":"United States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"outdoor-venues","fullDescription":"SF
+        Bay Area, California in Ironstone Amphitheatre at Ironstone Vineyards","isValidCategorySearchResult":"1","keywords":"Ironstone
+        Amphitheatre at Ironstone Vineyards seating chart, box office, address, capacity,
+        floor plan, best seats, images, parking, directions to, details, information,
+        restaurants","leaf":"true","localeDescription":"SF Bay Area, California","meta_description":"All
+        the information you need on Ironstone Amphitheatre at Ironstone Vineyards,
+        like seating charts, directions, box office, address. Find nearby parking,
+        restaurants and hotels near Ironstone Amphitheatre at Ironstone Vineyards
+        on StubHub!","name_primary":"Ironstone Amphitheatre at Ironstone Vineyards","name_secondary":"Ironstone
+        Amphitheatre at Ironstone Vineyards","parent_id":"81","season_venue_flag":"0","seo_description":"Ironstone
+        Amphitheatre at Ironstone Vineyards","seo_title":"Ironstone Amphitheatre at
+        Ironstone Vineyards","threeLevelsUpIds":"43080 81 4","title":"Ironstone Amphitheatre
+        at Ironstone Vineyards - Info and Details - StubHub!","urlpath":"ironstone-amphitheatre-at-ironstone-vineyards-event-tickets","urlpathid":"52203","ancestorDescription":"Ironstone
+        Amphitheatre at Ironstone Vineyards SF Bay Area California United States By
+        Geography","date_last_modified":"2013-04-17T18:13:11Z","venueDetailUrlPath":"ironstone-amphitheatre-at-ironstone-vineyards","venueDetailUrlPathId":"2072534","dateLastIndexed":"2013-04-25T12:46:15.188Z","locale":["en_US"]},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-43481","active":"1","deleted":"0","description":"Marin
+        Veterans Memorial Auditorium at Marin Center","desc_sort":"Marin Veterans
+        Memorial Auditorium at Marin Center","geoId":"43481","id":"43481","hidden":"0","ancestorGeoIds":"43481
+        81 4 196976 0","ancestorKeywords":"Marin Veterans Memorial Auditorium at Marin
+        Center TicketsMarin Veterans Memorial Auditorium at Marin Center event ticketsMarin
+        Veterans Memorial Auditorium at Marin Center schedule buy sell ticket SF Bay
+        Area event ticketsSF Bay Area Venues events in SF Bay Areatickets for events
+        in SF Bay Area sfbay sf s.f. bay California event ticketsCalifornia Venues
+        events in Californiatickets for events in California ca cali cal United States
+        event tickets United States Venues events in United States tickets for events
+        in United States event tickets by city","categorySearchKeywords":"Marin Veterans
+        Memorial Auditorium at Marin Center Marin Veterans Memorial Auditorium at
+        Marin Center Tickets - Marin Veterans Memorial Auditorium at Marin Center
+        Schedule at StubHub! Marin Veterans Memorial Auditorium at Marin Center Tickets
+        - Buy and sell Marin Veterans Memorial Auditorium at Marin Center event tickets
+        and check out the Marin Veterans Memorial Auditorium at Marin Center schedule
+        in San Rafael CA at StubHub! Marin Veterans Memorial Auditorium at Marin Center
+        TicketsMarin Veterans Memorial Auditorium at Marin Center event ticketsMarin
+        Veterans Memorial Auditorium at Marin Center schedule buy sell ticket Marin
+        Veterans Memorial Auditorium at Marin Center Tickets - Marin Veterans Memorial
+        Auditorium at Marin Center Events Marin Veterans Memorial Auditorium at Marin
+        Center Tickets Marin Veterans Memorial Auditorium at Marin Center - San Rafael
+        marin-veterans-memorial-auditorium-at-marin-center clubs-bars-theater-venues
+        Marin Veterans Memorial Auditorium at Marin Center","categoryType":"geo","channel":"United
+        States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"clubs-bars-theater-venues","fullDescription":"SF
+        Bay Area, California in Marin Veterans Memorial Auditorium at Marin Center","isValidCategorySearchResult":"1","keywords":"Marin
+        Veterans Memorial Auditorium at Marin Center Tickets,Marin Veterans Memorial
+        Auditorium at Marin Center event tickets,Marin Veterans Memorial Auditorium
+        at Marin Center schedule, buy, sell, ticket","leaf":"true","localeDescription":"SF
+        Bay Area, California","meta_description":"Marin Veterans Memorial Auditorium
+        at Marin Center Tickets - Buy and sell Marin Veterans Memorial Auditorium
+        at Marin Center event tickets and check out the Marin Veterans Memorial Auditorium
+        at Marin Center schedule in San Rafael, CA at StubHub!","name_primary":"Marin
+        Veterans Memorial Auditorium at Marin Center - San Rafael","parent_id":"81","season_venue_flag":"0","seo_description":"Marin
+        Veterans Memorial Auditorium at Marin Center Tickets","seo_title":"Marin Veterans
+        Memorial Auditorium at Marin Center Tickets - Marin Veterans Memorial Auditorium
+        at Marin Center Events","threeLevelsUpIds":"43481 81 4","title":"Marin Veterans
+        Memorial Auditorium at Marin Center Tickets - Marin Veterans Memorial Auditorium
+        at Marin Center Schedule at StubHub!","urlpath":"marin-veterans-memorial-auditorium-at-marin-center-event-tickets","urlpathid":"52218","ancestorDescription":"Marin
+        Veterans Memorial Auditorium at Marin Center SF Bay Area California United
+        States By Geography","home_team":"marin-veterans-memorial-auditorium-at-marin-center","date_last_modified":"2013-04-17T18:13:11Z","geography_meta_description":"Marin
+        Veterans Memorial Auditorium at Marin Center","venueDetailUrlPath":"marin-veterans-memorial-auditorium-at-marin-center","venueDetailUrlPathId":"2072549","dateLastIndexed":"2013-04-25T12:46:21.948Z","locale":["en_US"]},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-43280","active":"1","deleted":"0","description":"The
+        Saddle Rack","desc_sort":"The Saddle Rack","geoId":"43280","id":"43280","hidden":"1","ancestorGeoIds":"43280
+        81 4 196976 0","ancestorKeywords":"The Saddle Rack TicketsThe Saddle Rack
+        event ticketsThe Saddle Rack schedule buy sell ticket SF Bay Area event ticketsSF
+        Bay Area Venues events in SF Bay Areatickets for events in SF Bay Area sfbay
+        sf s.f. bay California event ticketsCalifornia Venues events in Californiatickets
+        for events in California ca cali cal United States event tickets United States
+        Venues events in United States tickets for events in United States event tickets
+        by city","categorySearchKeywords":"The Saddle Rack The Saddle Rack Tickets
+        - The Saddle Rack Schedule at StubHub! The Saddle Rack Tickets - Buy and sell
+        The Saddle Rack event tickets and check out the The Saddle Rack schedule in
+        Fremont CA at StubHub! The Saddle Rack TicketsThe Saddle Rack event ticketsThe
+        Saddle Rack schedule buy sell ticket The Saddle Rack Tickets - The Saddle
+        Rack Events The Saddle Rack Tickets The Saddle Rack - Fremont  the-saddle-rack
+        clubs-bars-theater-venues The Saddle Rack","categoryType":"geo","channel":"United
+        States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"clubs-bars-theater-venues","fullDescription":"SF
+        Bay Area, California in The Saddle Rack","isValidCategorySearchResult":"1","keywords":"The
+        Saddle Rack Tickets,The Saddle Rack event tickets,The Saddle Rack schedule,
+        buy, sell, ticket","leaf":"true","localeDescription":"SF Bay Area, California","meta_description":"The
+        Saddle Rack Tickets - Buy and sell The Saddle Rack event tickets and check
+        out the The Saddle Rack schedule in Fremont, CA at StubHub!","name_primary":"The
+        Saddle Rack - Fremont","name_secondary":" ","parent_id":"81","season_venue_flag":"0","seo_description":"The
+        Saddle Rack Tickets","seo_title":"The Saddle Rack Tickets - The Saddle Rack
+        Events","threeLevelsUpIds":"43280 81 4","title":"The Saddle Rack Tickets -
+        The Saddle Rack Schedule at StubHub!","urlpath":"the-saddle-rack-event-tickets","urlpathid":"52215","ancestorDescription":"The
+        Saddle Rack SF Bay Area California United States By Geography","home_team":"the-saddle-rack","date_last_modified":"2013-04-17T18:13:11Z","geography_meta_description":"The
+        Saddle Rack","venueDetailUrlPath":"the-saddle-rack","venueDetailUrlPathId":"2072546","dateLastIndexed":"2013-04-25T12:46:22.131Z","locale":["en_US"]},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-67982","active":"1","deleted":"0","description":"Stockton
+        Arena","desc_sort":"Stockton Arena","geoId":"67982","id":"67982","hidden":"0","ancestorGeoIds":"67982
+        81 4 196976 0","ancestorKeywords":"Stockton Arena seating chart box office
+        address capacity floor plan best seats images parking directions to details
+        information restaurants SF Bay Area event ticketsSF Bay Area Venues events
+        in SF Bay Areatickets for events in SF Bay Area sfbay sf s.f. bay California
+        event ticketsCalifornia Venues events in Californiatickets for events in California
+        ca cali cal United States event tickets United States Venues events in United
+        States tickets for events in United States event tickets by city","categorySearchKeywords":"Stockton
+        Arena Stockton Arena - Info and Details - StubHub! All the information you
+        need on Stockton Arena like seating charts directions box office address.
+        Find nearby parking restaurants and hotels near Stockton Arena on StubHub!
+        Stockton Arena seating chart box office address capacity floor plan best seats
+        images parking directions to details information restaurants Stockton Arena
+        Stockton Arena Stockton Arena Stockton Arena arena-venues Stockton Arena","categoryType":"geo","channel":"United
+        States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"arena-venues","fullDescription":"SF
+        Bay Area, California in Stockton Arena","isValidCategorySearchResult":"1","keywords":"Stockton
+        Arena seating chart, box office, address, capacity, floor plan, best seats,
+        images, parking, directions to, details, information, restaurants","leaf":"true","localeDescription":"SF
+        Bay Area, California","meta_description":"All the information you need on
+        Stockton Arena, like seating charts, directions, box office, address. Find
+        nearby parking, restaurants and hotels near Stockton Arena on StubHub!","name_primary":"Stockton
+        Arena","name_secondary":"Stockton Arena","parent_id":"81","season_venue_flag":"0","seo_description":"Stockton
+        Arena","seo_title":"Stockton Arena","threeLevelsUpIds":"67982 81 4","title":"Stockton
+        Arena - Info and Details - StubHub!","urlpath":"stockton-arena-event-tickets","urlpathid":"92305","ancestorDescription":"Stockton
+        Arena SF Bay Area California United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","venueDetailUrlPath":"stockton-arena","venueDetailUrlPathId":"2069055","dateLastIndexed":"2013-04-25T12:46:22.179Z","locale":["en_US"]},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-66883","active":"1","deleted":"0","description":"Sonoma
+        County Fairgrounds - Grace Pavilion","desc_sort":"Sonoma County Fairgrounds
+        - Grace Pavilion","geoId":"66883","id":"66883","hidden":"1","ancestorGeoIds":"66883
+        81 4 196976 0","ancestorKeywords":"Sonoma County Fairgrounds - Grace Pavilion
+        seating chart box office address capacity floor plan best seats images parking
+        directions to details information restaurants SF Bay Area event ticketsSF
+        Bay Area Venues events in SF Bay Areatickets for events in SF Bay Area sfbay
+        sf s.f. bay California event ticketsCalifornia Venues events in Californiatickets
+        for events in California ca cali cal United States event tickets United States
+        Venues events in United States tickets for events in United States event tickets
+        by city","categorySearchKeywords":"Sonoma County Fairgrounds - Grace Pavilion
+        Sonoma County Fairgrounds - Grace Pavilion - Info and Details - StubHub! All
+        the information you need on Sonoma County Fairgrounds - Grace Pavilion like
+        seating charts directions box office address. Find nearby parking restaurants
+        and hotels near Sonoma County Fairgrounds - Grace Pavilion on StubHub! Sonoma
+        County Fairgrounds - Grace Pavilion seating chart box office address capacity
+        floor plan best seats images parking directions to details information restaurants
+        Sonoma County Fairgrounds - Grace Pavilion Sonoma County Fairgrounds - Grace
+        Pavilion Sonoma County Fairgrounds - Grace Pavilion Sonoma County Fairgrounds
+        - Grace Pavilion other-venues Sonoma County Fairgrounds - Grace Pavilion","categoryType":"geo","channel":"United
+        States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"other-venues","fullDescription":"SF
+        Bay Area, California in Sonoma County Fairgrounds - Grace Pavilion","isValidCategorySearchResult":"1","keywords":"Sonoma
+        County Fairgrounds - Grace Pavilion seating chart, box office, address, capacity,
+        floor plan, best seats, images, parking, directions to, details, information,
+        restaurants","leaf":"true","localeDescription":"SF Bay Area, California","meta_description":"All
+        the information you need on Sonoma County Fairgrounds - Grace Pavilion, like
+        seating charts, directions, box office, address. Find nearby parking, restaurants
+        and hotels near Sonoma County Fairgrounds - Grace Pavilion on StubHub!","name_primary":"Sonoma
+        County Fairgrounds - Grace Pavilion","name_secondary":"Sonoma County Fairgrounds
+        - Grace Pavilion","parent_id":"81","season_venue_flag":"0","seo_description":"Sonoma
+        County Fairgrounds - Grace Pavilion","seo_title":"Sonoma County Fairgrounds
+        - Grace Pavilion","threeLevelsUpIds":"66883 81 4","title":"Sonoma County Fairgrounds
+        - Grace Pavilion - Info and Details - StubHub!","urlpath":"sonoma-county-fairgrounds-grace-pavilion-event-tickets","urlpathid":"87108","ancestorDescription":"Sonoma
+        County Fairgrounds - Grace Pavilion SF Bay Area California United States By
+        Geography","date_last_modified":"2013-04-17T18:13:11Z","venueDetailUrlPath":"sonoma-county-fairgrounds-grace-pavilion","venueDetailUrlPathId":"2069907","dateLastIndexed":"2013-04-25T12:46:26.658Z","locale":["en_US"]},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-100400","active":"1","deleted":"0","description":"Grand
+        Chapiteau at Taylor Street Bridge","desc_sort":"Grand Chapiteau at Taylor
+        Street Bridge","geoId":"100400","id":"100400","hidden":"0","ancestorGeoIds":"100400
+        81 4 196976 0","ancestorKeywords":"Grand Chapiteau at Taylor Street Bridge
+        seating chart box office address capacity floor plan best seats images parking
+        directions to details information restaurants SF Bay Area event ticketsSF
+        Bay Area Venues events in SF Bay Areatickets for events in SF Bay Area sfbay
+        sf s.f. bay California event ticketsCalifornia Venues events in Californiatickets
+        for events in California ca cali cal United States event tickets United States
+        Venues events in United States tickets for events in United States event tickets
+        by city","categorySearchKeywords":"Grand Chapiteau at Taylor Street Bridge
+        Grand Chapiteau at Taylor Street Bridge - Info and Details - StubHub! All
+        the information you need on Grand Chapiteau at Taylor Street Bridge like seating
+        charts directions box office address. Find nearby parking restaurants and
+        hotels near Grand Chapiteau at Taylor Street Bridge on StubHub! Grand Chapiteau
+        at Taylor Street Bridge seating chart box office address capacity floor plan
+        best seats images parking directions to details information restaurants Grand
+        Chapiteau at Taylor Street Bridge Grand Chapiteau at Taylor Street Bridge
+        Grand Chapiteau at Taylor Street Bridge Grand Chapiteau at Taylor Street Bridge
+        other-venues Grand Chapiteau at Taylor Street Bridge","categoryType":"geo","channel":"United
+        States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"other-venues","fullDescription":"SF
+        Bay Area, California in Grand Chapiteau at Taylor Street Bridge","isValidCategorySearchResult":"1","keywords":"Grand
+        Chapiteau at Taylor Street Bridge seating chart, box office, address, capacity,
+        floor plan, best seats, images, parking, directions to, details, information,
+        restaurants","leaf":"true","localeDescription":"SF Bay Area, California","meta_description":"All
+        the information you need on Grand Chapiteau at Taylor Street Bridge, like
+        seating charts, directions, box office, address. Find nearby parking, restaurants
+        and hotels near Grand Chapiteau at Taylor Street Bridge on StubHub!","name_primary":"Grand
+        Chapiteau at Taylor Street Bridge","name_secondary":"Grand Chapiteau at Taylor
+        Street Bridge","parent_id":"81","season_venue_flag":"0","seo_description":"Grand
+        Chapiteau at Taylor Street Bridge","seo_title":"Grand Chapiteau at Taylor
+        Street Bridge","threeLevelsUpIds":"100400 81 4","title":"Grand Chapiteau at
+        Taylor Street Bridge - Info and Details - StubHub!","urlpath":"grand-chapiteau-at-taylor-street-bridge-tickets","urlpathid":"146872","ancestorDescription":"Grand
+        Chapiteau at Taylor Street Bridge SF Bay Area California United States By
+        Geography","date_last_modified":"2013-04-17T18:13:11Z","venueDetailUrlPath":"grand-chapiteau-at-taylor-street-bridge","venueDetailUrlPathId":"2069874","dateLastIndexed":"2013-04-25T12:46:36.632Z","locale":["en_US"]},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-100300","active":"1","deleted":"0","description":"Grand
+        Chapiteau at AT&T Park","desc_sort":"Grand Chapiteau at AT&T Park","geoId":"100300","id":"100300","hidden":"0","ancestorGeoIds":"100300
+        81 4 196976 0","ancestorKeywords":"Grand Chapiteau at AT&amp;T Park seating
+        chart box office address capacity floor plan best seats images parking directions
+        to details information restaurants SF Bay Area event ticketsSF Bay Area Venues
+        events in SF Bay Areatickets for events in SF Bay Area sfbay sf s.f. bay California
+        event ticketsCalifornia Venues events in Californiatickets for events in California
+        ca cali cal United States event tickets United States Venues events in United
+        States tickets for events in United States event tickets by city","categorySearchKeywords":"Grand
+        Chapiteau at AT&T Park Grand Chapiteau at AT&amp;T Park - Info and Details
+        - StubHub! All the information you need on Grand Chapiteau at AT&amp;T Park
+        like seating charts directions box office address. Find nearby parking restaurants
+        and hotels near Grand Chapiteau at AT&amp;T Park on StubHub! Grand Chapiteau
+        at AT&amp;T Park seating chart box office address capacity floor plan best
+        seats images parking directions to details information restaurants Grand Chapiteau
+        at AT&amp;T Park Grand Chapiteau at AT&amp;T Park Grand Chapiteau at AT&amp;T
+        Park Grand Chapiteau at AT&amp;T Park other-venues Grand Chapiteau at AT&T
+        Park","categoryType":"geo","channel":"United States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"other-venues","fullDescription":"SF
+        Bay Area, California in Grand Chapiteau at AT&T Park","isValidCategorySearchResult":"1","keywords":"Grand
+        Chapiteau at AT&amp;T Park seating chart, box office, address, capacity, floor
+        plan, best seats, images, parking, directions to, details, information, restaurants","leaf":"true","localeDescription":"SF
+        Bay Area, California","meta_description":"All the information you need on
+        Grand Chapiteau at AT&amp;T Park, like seating charts, directions, box office,
+        address. Find nearby parking, restaurants and hotels near Grand Chapiteau
+        at AT&amp;T Park on StubHub!","name_primary":"Grand Chapiteau at AT&amp;T
+        Park","name_secondary":"Grand Chapiteau at AT&amp;T Park","parent_id":"81","season_venue_flag":"0","seo_description":"Grand
+        Chapiteau at AT&amp;T Park","seo_title":"Grand Chapiteau at AT&amp;T Park","threeLevelsUpIds":"100300
+        81 4","title":"Grand Chapiteau at AT&amp;T Park - Info and Details - StubHub!","urlpath":"grand-chapiteau-at-att-park-tickets","urlpathid":"147606","ancestorDescription":"Grand
+        Chapiteau at AT&T Park SF Bay Area California United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","venueDetailUrlPath":"grand-chapiteau-at-att-park","venueDetailUrlPathId":"2069432","dateLastIndexed":"2013-04-25T12:46:36.915Z","locale":["en_US"]},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-100700","active":"1","deleted":"0","description":"Rodney
+        Strong Vineyards","desc_sort":"Rodney Strong Vineyards","geoId":"100700","id":"100700","hidden":"1","ancestorGeoIds":"100700
+        81 4 196976 0","ancestorKeywords":"Rodney Strong Vineyards TicketsRodney Strong
+        Vineyards event ticketsRodney Strong Vineyards schedule buy sell ticket SF
+        Bay Area event ticketsSF Bay Area Venues events in SF Bay Areatickets for
+        events in SF Bay Area sfbay sf s.f. bay California event ticketsCalifornia
+        Venues events in Californiatickets for events in California ca cali cal United
+        States event tickets United States Venues events in United States tickets
+        for events in United States event tickets by city","categorySearchKeywords":"Rodney
+        Strong Vineyards Rodney Strong Vineyards Tickets - Rodney Strong Vineyards
+        Schedule at StubHub! Rodney Strong Vineyards Tickets - Buy and sell Rodney
+        Strong Vineyards event tickets and check out the Rodney Strong Vineyards schedule
+        in Healdsburg CA at StubHub! Rodney Strong Vineyards TicketsRodney Strong
+        Vineyards event ticketsRodney Strong Vineyards schedule buy sell ticket Rodney
+        Strong Vineyards Tickets - Rodney Strong Vineyards Events Rodney Strong Vineyards
+        Tickets Rodney Strong Vineyards  other-venues Rodney Strong Vineyards","categoryType":"geo","channel":"United
+        States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"other-venues","fullDescription":"SF
+        Bay Area, California in Rodney Strong Vineyards","isValidCategorySearchResult":"1","keywords":"Rodney
+        Strong Vineyards Tickets,Rodney Strong Vineyards event tickets,Rodney Strong
+        Vineyards schedule, buy, sell, ticket","leaf":"true","localeDescription":"SF
+        Bay Area, California","meta_description":"Rodney Strong Vineyards Tickets
+        - Buy and sell Rodney Strong Vineyards event tickets and check out the Rodney
+        Strong Vineyards schedule in Healdsburg, CA at StubHub!","name_primary":"Rodney
+        Strong Vineyards","parent_id":"81","season_venue_flag":"0","seo_description":"Rodney
+        Strong Vineyards Tickets","seo_title":"Rodney Strong Vineyards Tickets - Rodney
+        Strong Vineyards Events","threeLevelsUpIds":"100700 81 4","title":"Rodney
+        Strong Vineyards Tickets - Rodney Strong Vineyards Schedule at StubHub!","urlpath":"rodney-strong-vineyards-tickets","urlpathid":"148605","ancestorDescription":"Rodney
+        Strong Vineyards SF Bay Area California United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","geography_meta_description":"Rodney
+        Strong Vineyards","venueDetailUrlPath":"rodney-strong-vineyards","venueDetailUrlPathId":"2069879","dateLastIndexed":"2013-04-25T12:46:37.197Z","locale":["en_US"]},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-101200","active":"1","deleted":"0","description":"Fresno
+        Convention Center","desc_sort":"Fresno Convention Center","geoId":"101200","id":"101200","hidden":"1","ancestorGeoIds":"101200
+        81 4 196976 0","ancestorKeywords":"Fresno Convention Center seating chart
+        box office address capacity floor plan best seats images parking directions
+        to details information restaurants SF Bay Area event ticketsSF Bay Area Venues
+        events in SF Bay Areatickets for events in SF Bay Area sfbay sf s.f. bay California
+        event ticketsCalifornia Venues events in Californiatickets for events in California
+        ca cali cal United States event tickets United States Venues events in United
+        States tickets for events in United States event tickets by city","categorySearchKeywords":"Fresno
+        Convention Center Fresno Convention Center - Info and Details - StubHub! All
+        the information you need on Fresno Convention Center like seating charts directions
+        box office address. Find nearby parking restaurants and hotels near Fresno
+        Convention Center on StubHub! Fresno Convention Center seating chart box office
+        address capacity floor plan best seats images parking directions to details
+        information restaurants Fresno Convention Center Fresno Convention Center
+        Fresno Convention Center Fresno Convention Center arena-venues Fresno Convention
+        Center","categoryType":"geo","channel":"United States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"arena-venues","fullDescription":"SF
+        Bay Area, California in Fresno Convention Center","isValidCategorySearchResult":"1","keywords":"Fresno
+        Convention Center seating chart, box office, address, capacity, floor plan,
+        best seats, images, parking, directions to, details, information, restaurants","leaf":"true","localeDescription":"SF
+        Bay Area, California","meta_description":"All the information you need on
+        Fresno Convention Center, like seating charts, directions, box office, address.
+        Find nearby parking, restaurants and hotels near Fresno Convention Center
+        on StubHub!","name_primary":"Fresno Convention Center","name_secondary":"Fresno
+        Convention Center","parent_id":"81","season_venue_flag":"0","seo_description":"Fresno
+        Convention Center","seo_title":"Fresno Convention Center","threeLevelsUpIds":"101200
+        81 4","title":"Fresno Convention Center - Info and Details - StubHub!","urlpath":"fresno-convention-center-tickets","urlpathid":"150604","ancestorDescription":"Fresno
+        Convention Center SF Bay Area California United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","venueDetailUrlPath":"fresno-convention-center","venueDetailUrlPathId":"2069159","dateLastIndexed":"2013-04-25T12:46:42.92Z","locale":["en_US"]},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-61882","active":"1","deleted":"0","description":"Moscone
+        Center West","desc_sort":"Moscone Center West","geoId":"61882","id":"61882","hidden":"1","ancestorGeoIds":"61882
+        81 4 196976 0","ancestorKeywords":"Moscone Center West seating chart box office
+        address capacity floor plan best seats images parking directions to details
+        information restaurants SF Bay Area event ticketsSF Bay Area Venues events
+        in SF Bay Areatickets for events in SF Bay Area sfbay sf s.f. bay California
+        event ticketsCalifornia Venues events in Californiatickets for events in California
+        ca cali cal United States event tickets United States Venues events in United
+        States tickets for events in United States event tickets by city","categorySearchKeywords":"Moscone
+        Center West Moscone Center West - Info and Details - StubHub! All the information
+        you need on Moscone Center West like seating charts directions box office
+        address. Find nearby parking restaurants and hotels near Moscone Center West
+        on StubHub! Moscone Center West seating chart box office address capacity
+        floor plan best seats images parking directions to details information restaurants
+        Moscone Center West Moscone Center West Moscone Center West Moscone Center
+        West other-venues Moscone Center West","categoryType":"geo","channel":"United
+        States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"other-venues","fullDescription":"SF
+        Bay Area, California in Moscone Center West","isValidCategorySearchResult":"1","keywords":"Moscone
+        Center West seating chart, box office, address, capacity, floor plan, best
+        seats, images, parking, directions to, details, information, restaurants","leaf":"true","localeDescription":"SF
+        Bay Area, California","meta_description":"All the information you need on
+        Moscone Center West, like seating charts, directions, box office, address.
+        Find nearby parking, restaurants and hotels near Moscone Center West on StubHub!","name_primary":"Moscone
+        Center West","name_secondary":"Moscone Center West","parent_id":"81","season_venue_flag":"0","seo_description":"Moscone
+        Center West","seo_title":"Moscone Center West","threeLevelsUpIds":"61882 81
+        4","title":"Moscone Center West - Info and Details - StubHub!","urlpath":"moscone-center-event-tickets","urlpathid":"75605","ancestorDescription":"Moscone
+        Center West SF Bay Area California United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","venueDetailUrlPath":"moscone-center","venueDetailUrlPathId":"2072388","dateLastIndexed":"2013-04-25T12:47:04.194Z","locale":["en_US"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:52:36 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2Bdescription:%22Hawaii%22%20AND%20%2BstubhubDocumentType:geo&rows=2&start=0&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '7248'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sat, 27 Apr 2013 08:52:37 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:52:37 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=CF549A78AF1710AF2A7DD4733BCA86D2; Path=/; Domain=.stubhub.com
+      - TLTSID=CF549A78AF1710AF2A7DD4733BCA86D2; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:22:37 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":3,"params":{"wt":"json","rows":"10","start":"0","q":"+description:\"Hawaii\"
+        AND +stubhubDocumentType:geo"}},"response":{"numFound":3,"start":0,"docs":[{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-421","active":"1","deleted":"0","description":"Hawaii","desc_sort":"Hawaii","geoId":"421","id":"421","hidden":"0","childId":"422
+        33782 79798","ancestorGeoIds":"421 196976 0","ancestorKeywords":"Hawaii event
+        ticketsHawaii Venues events in Hawaiitickets for events in Hawaii ha hai United
+        States event tickets United States Venues events in United States tickets
+        for events in United States event tickets by city","categorySearchKeywords":"Hawaii
+        Hawaii Event Tickets Hawaii event tickets - Buy and sell tickets to events
+        in Hawaii. You can find event tickets to different venues in Hawaii at StubHub!
+        Hawaii event ticketsHawaii Venues events in Hawaiitickets for events in Hawaii
+        ha hai Hawaii Event Tickets Hawaii Venues Hawaii  Hawaii","categoryType":"geo","channel":"United
+        States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"1","fullDescription":"United
+        States, By Geography in Hawaii","isValidCategorySearchResult":"1","keywords":"Hawaii
+        event tickets,Hawaii Venues, events in Hawaii,tickets for events in Hawaii,
+        ha, hai,","leaf":"false","localeDescription":"United States, By Geography","meta_description":"Hawaii
+        event tickets - Buy and sell tickets to events in Hawaii. You can find event
+        tickets to different venues in Hawaii at StubHub!","name_primary":"Hawaii","parent_id":"196976","season_venue_flag":"0","seo_description":"Hawaii
+        Venues","seo_title":"Hawaii Event Tickets","threeLevelsUpIds":"421 196976
+        0","title":"Hawaii Event Tickets","urlpath":"hawaii-tickets","urlpathid":"49667","ancestorDescription":"Hawaii
+        United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","geography_meta_description":"Hawaii","venueDetailUrlPath":"hawaii","venueDetailUrlPathId":"2069516","dateLastIndexed":"2013-04-26T12:40:01.747Z","locale":["en_US"]},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-155125","active":"1","deleted":"0","description":"Hawaii
+        Theatre","desc_sort":"Hawaii Theatre","geoId":"155125","id":"155125","hidden":"0","ancestorGeoIds":"155125
+        422 421 196976 0","ancestorKeywords":"Hawaii Theatre TicketsHawaii Theatre
+        event ticketsHawaii Theatre schedule buy sell ticket Honolulu event ticketsHonolulu
+        Venues events in Honolulutickets for events in Honolulu Hawaii event ticketsHawaii
+        Venues events in Hawaiitickets for events in Hawaii ha hai United States event
+        tickets United States Venues events in United States tickets for events in
+        United States event tickets by city","categorySearchKeywords":"Hawaii Theatre
+        Hawaii Theatre Tickets - Hawaii Theatre Schedule at StubHub! Hawaii Theatre
+        Tickets - Buy and sell Hawaii Theatre event tickets and check out the Hawaii
+        Theatre schedule in Honolulu HI at StubHub! Hawaii Theatre TicketsHawaii Theatre
+        event ticketsHawaii Theatre schedule buy sell ticket Hawaii Theatre Tickets
+        - Hawaii Theatre Events Hawaii Theatre Tickets Hawaii Theatre - Honolulu hawaii-theatre
+        clubs-bars-theater-venues Hawaii Theatre","categoryType":"geo","channel":"United
+        States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"clubs-bars-theater-venues","fullDescription":"Honolulu,
+        Hawaii in Hawaii Theatre","isValidCategorySearchResult":"1","keywords":"Hawaii
+        Theatre Tickets,Hawaii Theatre event tickets,Hawaii Theatre schedule, buy,
+        sell, ticket","leaf":"true","localeDescription":"Honolulu, Hawaii","meta_description":"Hawaii
+        Theatre Tickets - Buy and sell Hawaii Theatre event tickets and check out
+        the Hawaii Theatre schedule in Honolulu, HI at StubHub!","name_primary":"Hawaii
+        Theatre - Honolulu","parent_id":"422","season_venue_flag":"0","seo_description":"Hawaii
+        Theatre Tickets","seo_title":"Hawaii Theatre Tickets - Hawaii Theatre Events","threeLevelsUpIds":"155125
+        422 421","title":"Hawaii Theatre Tickets - Hawaii Theatre Schedule at StubHub!","urlpath":"hawaii-theatre-tickets","urlpathid":"497474","ancestorDescription":"Hawaii
+        Theatre Honolulu Hawaii United States By Geography","home_team":"hawaii-theatre","date_last_modified":"2013-04-17T18:13:11Z","geography_meta_description":"Hawaii
+        Theatre","venueDetailUrlPath":"hawaii-theatre","venueDetailUrlPathId":"2073637","dateLastIndexed":"2013-04-26T12:49:20.804Z","locale":["en_US"]},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-168529","active":"1","deleted":"0","description":"Marine
+        Corps Base Hawaii","desc_sort":"Marine Corps Base Hawaii","geoId":"168529","id":"168529","hidden":"1","ancestorGeoIds":"168529
+        422 421 196976 0","ancestorKeywords":"Marine Corps Base Hawaii TicketsMarine
+        Corps Base Hawaii event ticketsMarine Corps Base Hawaii schedule buy sell
+        ticket Honolulu event ticketsHonolulu Venues events in Honolulutickets for
+        events in Honolulu Hawaii event ticketsHawaii Venues events in Hawaiitickets
+        for events in Hawaii ha hai United States event tickets United States Venues
+        events in United States tickets for events in United States event tickets
+        by city","categorySearchKeywords":"Marine Corps Base Hawaii Marine Corps Base
+        Hawaii Tickets - Marine Corps Base Hawaii Schedule at StubHub! Marine Corps
+        Base Hawaii Tickets - Buy and sell Marine Corps Base Hawaii event tickets
+        and check out the Marine Corps Base Hawaii schedule in M C B H Kaneohe Bay
+        HI at StubHub! Marine Corps Base Hawaii TicketsMarine Corps Base Hawaii event
+        ticketsMarine Corps Base Hawaii schedule buy sell ticket Marine Corps Base
+        Hawaii Tickets - Marine Corps Base Hawaii Events Marine Corps Base Hawaii
+        Tickets Marine Corps Base Hawaii Marine Corps Base Hawaii - Kaneohe Bay  Marine
+        Corps Base Hawaii","categoryType":"geo","channel":"United States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","fullDescription":"Honolulu,
+        Hawaii in Marine Corps Base Hawaii","isValidCategorySearchResult":"1","keywords":"Marine
+        Corps Base Hawaii Tickets,Marine Corps Base Hawaii event tickets,Marine Corps
+        Base Hawaii schedule, buy, sell, ticket","leaf":"true","localeDescription":"Honolulu,
+        Hawaii","meta_description":"Marine Corps Base Hawaii Tickets - Buy and sell
+        Marine Corps Base Hawaii event tickets and check out the Marine Corps Base
+        Hawaii schedule in M C B H Kaneohe Bay, HI at StubHub!","name_primary":"Marine
+        Corps Base Hawaii","name_secondary":"Marine Corps Base Hawaii - Kaneohe Bay,","parent_id":"422","season_venue_flag":"0","seo_description":"Marine
+        Corps Base Hawaii Tickets","seo_title":"Marine Corps Base Hawaii Tickets -
+        Marine Corps Base Hawaii Events","threeLevelsUpIds":"168529 422 421","title":"Marine
+        Corps Base Hawaii Tickets - Marine Corps Base Hawaii Schedule at StubHub!","urlpath":"marine-corps-base-hawaii-tickets","urlpathid":"552855","ancestorDescription":"Marine
+        Corps Base Hawaii Honolulu Hawaii United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","date_added":"2009-08-11T00:41:08Z","geography_meta_description":"Marine
+        Corps Base Hawaii","venueDetailUrlPath":"marine-corps-base-hawaii","venueDetailUrlPathId":"2073935","dateLastIndexed":"2013-04-26T12:55:47.955Z","locale":["en_US"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:52:37 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2Bdescription:%22Hawaii%22%20AND%20%2BstubhubDocumentType:geo&rows=2&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '4446'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sat, 27 Apr 2013 08:53:53 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:53:53 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=FCBC637EAF1710AFD0B5D33B93954DDF; Path=/; Domain=.stubhub.com
+      - TLTSID=FCBC637EAF1710AFD0B5D33B93954DDF; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:23:53 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":2,"params":{"wt":"json","rows":"2","q":"+description:\"Hawaii\"
+        AND +stubhubDocumentType:geo"}},"response":{"numFound":3,"start":0,"docs":[{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-421","active":"1","deleted":"0","description":"Hawaii","desc_sort":"Hawaii","geoId":"421","id":"421","hidden":"0","childId":"422
+        33782 79798","ancestorGeoIds":"421 196976 0","ancestorKeywords":"Hawaii event
+        ticketsHawaii Venues events in Hawaiitickets for events in Hawaii ha hai United
+        States event tickets United States Venues events in United States tickets
+        for events in United States event tickets by city","categorySearchKeywords":"Hawaii
+        Hawaii Event Tickets Hawaii event tickets - Buy and sell tickets to events
+        in Hawaii. You can find event tickets to different venues in Hawaii at StubHub!
+        Hawaii event ticketsHawaii Venues events in Hawaiitickets for events in Hawaii
+        ha hai Hawaii Event Tickets Hawaii Venues Hawaii  Hawaii","categoryType":"geo","channel":"United
+        States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"1","fullDescription":"United
+        States, By Geography in Hawaii","isValidCategorySearchResult":"1","keywords":"Hawaii
+        event tickets,Hawaii Venues, events in Hawaii,tickets for events in Hawaii,
+        ha, hai,","leaf":"false","localeDescription":"United States, By Geography","meta_description":"Hawaii
+        event tickets - Buy and sell tickets to events in Hawaii. You can find event
+        tickets to different venues in Hawaii at StubHub!","name_primary":"Hawaii","parent_id":"196976","season_venue_flag":"0","seo_description":"Hawaii
+        Venues","seo_title":"Hawaii Event Tickets","threeLevelsUpIds":"421 196976
+        0","title":"Hawaii Event Tickets","urlpath":"hawaii-tickets","urlpathid":"49667","ancestorDescription":"Hawaii
+        United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","geography_meta_description":"Hawaii","venueDetailUrlPath":"hawaii","venueDetailUrlPathId":"2069516","dateLastIndexed":"2013-04-26T12:40:02.564Z","locale":["en_US"]},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-155125","active":"1","deleted":"0","description":"Hawaii
+        Theatre","desc_sort":"Hawaii Theatre","geoId":"155125","id":"155125","hidden":"0","ancestorGeoIds":"155125
+        422 421 196976 0","ancestorKeywords":"Hawaii Theatre TicketsHawaii Theatre
+        event ticketsHawaii Theatre schedule buy sell ticket Honolulu event ticketsHonolulu
+        Venues events in Honolulutickets for events in Honolulu Hawaii event ticketsHawaii
+        Venues events in Hawaiitickets for events in Hawaii ha hai United States event
+        tickets United States Venues events in United States tickets for events in
+        United States event tickets by city","categorySearchKeywords":"Hawaii Theatre
+        Hawaii Theatre Tickets - Hawaii Theatre Schedule at StubHub! Hawaii Theatre
+        Tickets - Buy and sell Hawaii Theatre event tickets and check out the Hawaii
+        Theatre schedule in Honolulu HI at StubHub! Hawaii Theatre TicketsHawaii Theatre
+        event ticketsHawaii Theatre schedule buy sell ticket Hawaii Theatre Tickets
+        - Hawaii Theatre Events Hawaii Theatre Tickets Hawaii Theatre - Honolulu hawaii-theatre
+        clubs-bars-theater-venues Hawaii Theatre","categoryType":"geo","channel":"United
+        States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"clubs-bars-theater-venues","fullDescription":"Honolulu,
+        Hawaii in Hawaii Theatre","isValidCategorySearchResult":"1","keywords":"Hawaii
+        Theatre Tickets,Hawaii Theatre event tickets,Hawaii Theatre schedule, buy,
+        sell, ticket","leaf":"true","localeDescription":"Honolulu, Hawaii","meta_description":"Hawaii
+        Theatre Tickets - Buy and sell Hawaii Theatre event tickets and check out
+        the Hawaii Theatre schedule in Honolulu, HI at StubHub!","name_primary":"Hawaii
+        Theatre - Honolulu","parent_id":"422","season_venue_flag":"0","seo_description":"Hawaii
+        Theatre Tickets","seo_title":"Hawaii Theatre Tickets - Hawaii Theatre Events","threeLevelsUpIds":"155125
+        422 421","title":"Hawaii Theatre Tickets - Hawaii Theatre Schedule at StubHub!","urlpath":"hawaii-theatre-tickets","urlpathid":"497474","ancestorDescription":"Hawaii
+        Theatre Honolulu Hawaii United States By Geography","home_team":"hawaii-theatre","date_last_modified":"2013-04-17T18:13:11Z","geography_meta_description":"Hawaii
+        Theatre","venueDetailUrlPath":"hawaii-theatre","venueDetailUrlPathId":"2073637","dateLastIndexed":"2013-04-26T12:45:45.022Z","locale":["en_US"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:53:53 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2BlocaleDescription:%22SF%20Bay%20Area%22%20AND%20%2BstubhubDocumentType:geo&rows=2&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '5546'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sat, 27 Apr 2013 08:53:53 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:53:53 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=FCED49EEAF1710AFC717F44AA98A2127; Path=/; Domain=.stubhub.com
+      - TLTSID=FCED49EEAF1710AFC717F44AA98A2127; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:23:53 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":18,"params":{"wt":"json","rows":"2","q":"+localeDescription:\"SF
+        Bay Area\" AND +stubhubDocumentType:geo"}},"response":{"numFound":334,"start":0,"docs":[{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-81989","active":"1","deleted":"0","description":"Bob
+        Hope Theatre","desc_sort":"Bob Hope Theatre","geoId":"81989","id":"81989","hidden":"0","ancestorGeoIds":"81989
+        81 4 196976 0","ancestorKeywords":"Bob Hope Theatre TicketsBob Hope Theatre
+        event ticketsBob Hope Theatre schedule buy sell ticket SF Bay Area event ticketsSF
+        Bay Area Venues events in SF Bay Areatickets for events in SF Bay Area sfbay
+        sf s.f. bay California event ticketsCalifornia Venues events in Californiatickets
+        for events in California ca cali cal United States event tickets United States
+        Venues events in United States tickets for events in United States event tickets
+        by city","categorySearchKeywords":"Bob Hope Theatre Bob Hope Theatre Tickets
+        - Bob Hope Theatre Schedule at StubHub! Bob Hope Theatre Tickets - Buy and
+        sell Bob Hope Theatre event tickets and check out the Bob Hope Theatre schedule
+        in Stockton CA at StubHub! Bob Hope Theatre TicketsBob Hope Theatre event
+        ticketsBob Hope Theatre schedule buy sell ticket Bob Hope Theatre Tickets
+        - Bob Hope Theatre Events Bob Hope Theatre Tickets Bob Hope Theatre - Stockton
+        bob-hope-theatre clubs-bars-theater-venues Bob Hope Theatre","categoryType":"geo","channel":"United
+        States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"1","event_types":"clubs-bars-theater-venues","fullDescription":"SF
+        Bay Area, California in Bob Hope Theatre","isValidCategorySearchResult":"1","keywords":"Bob
+        Hope Theatre Tickets,Bob Hope Theatre event tickets,Bob Hope Theatre schedule,
+        buy, sell, ticket","leaf":"true","localeDescription":"SF Bay Area, California","meta_description":"Bob
+        Hope Theatre Tickets - Buy and sell Bob Hope Theatre event tickets and check
+        out the Bob Hope Theatre schedule in Stockton, CA at StubHub!","name_primary":"Bob
+        Hope Theatre - Stockton","parent_id":"81","season_venue_flag":"0","seo_description":"Bob
+        Hope Theatre Tickets","seo_title":"Bob Hope Theatre Tickets - Bob Hope Theatre
+        Events","threeLevelsUpIds":"81989 81 4","title":"Bob Hope Theatre Tickets
+        - Bob Hope Theatre Schedule at StubHub!","urlpath":"bob-hope-theatre-event-tickets","urlpathid":"123778","ancestorDescription":"Bob
+        Hope Theatre SF Bay Area California United States By Geography","home_team":"bob-hope-theatre","date_last_modified":"2013-04-17T18:13:11Z","geography_meta_description":"Bob
+        Hope Theatre","venueDetailUrlPath":"bob-hope-theatre","venueDetailUrlPathId":"2069426","dateLastIndexed":"2013-04-18T12:55:22.155Z","locale":["en_US"]},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-38482","active":"1","deleted":"0","description":"Fresno
+        Downtown Stadium","desc_sort":"Fresno Downtown Stadium","geoId":"38482","id":"38482","hidden":"1","ancestorGeoIds":"38482
+        81 4 196976 0","ancestorKeywords":"Fresno Downtown Stadium TicketsFresno Downtown
+        Stadium event ticketsFresno Downtown Stadium schedule buy sell ticket SF Bay
+        Area event ticketsSF Bay Area Venues events in SF Bay Areatickets for events
+        in SF Bay Area sfbay sf s.f. bay California event ticketsCalifornia Venues
+        events in Californiatickets for events in California ca cali cal United States
+        event tickets United States Venues events in United States tickets for events
+        in United States event tickets by city","categorySearchKeywords":"Fresno Downtown
+        Stadium Fresno Downtown Stadium Tickets - Fresno Downtown Stadium Schedule
+        at StubHub! Fresno Downtown Stadium Tickets - Buy and sell Fresno Downtown
+        Stadium event tickets and check out the Fresno Downtown Stadium schedule in
+        Fresno CA at StubHub! Fresno Downtown Stadium TicketsFresno Downtown Stadium
+        event ticketsFresno Downtown Stadium schedule buy sell ticket Fresno Downtown
+        Stadium Tickets - Fresno Downtown Stadium Events Fresno Downtown Stadium Tickets
+        Fresno Downtown Stadium - Fresno  fresno-downtown-stadium stadium-venues Fresno
+        Downtown Stadium","categoryType":"geo","channel":"United States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"stadium-venues","fullDescription":"SF
+        Bay Area, California in Fresno Downtown Stadium","isValidCategorySearchResult":"1","keywords":"Fresno
+        Downtown Stadium Tickets,Fresno Downtown Stadium event tickets,Fresno Downtown
+        Stadium schedule, buy, sell, ticket","leaf":"true","localeDescription":"SF
+        Bay Area, California","meta_description":"Fresno Downtown Stadium Tickets
+        - Buy and sell Fresno Downtown Stadium event tickets and check out the Fresno
+        Downtown Stadium schedule in Fresno, CA at StubHub!","name_primary":"Fresno
+        Downtown Stadium - Fresno","name_secondary":" ","parent_id":"81","season_venue_flag":"0","seo_description":"Fresno
+        Downtown Stadium Tickets","seo_title":"Fresno Downtown Stadium Tickets - Fresno
+        Downtown Stadium Events","threeLevelsUpIds":"38482 81 4","title":"Fresno Downtown
+        Stadium Tickets - Fresno Downtown Stadium Schedule at StubHub!","urlpath":"fresno-downtown-stadium-event-tickets","urlpathid":"52121","ancestorDescription":"Fresno
+        Downtown Stadium SF Bay Area California United States By Geography","home_team":"fresno-downtown-stadium","date_last_modified":"2013-04-17T18:13:11Z","geography_meta_description":"Fresno
+        Downtown Stadium","venueDetailUrlPath":"fresno-downtown-stadium","venueDetailUrlPathId":"2072731","dateLastIndexed":"2013-04-18T12:55:22.189Z","locale":["en_US"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:53:53 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=%2BgeoId:81989%20AND%20%2BstubhubDocumentType:geo&rows=1&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '2751'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sat, 27 Apr 2013 08:53:54 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 27 Apr 2013 08:53:54 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=FD1DBC6EAF1710AFDC5BC7D628D1EAC2; Path=/; Domain=.stubhub.com
+      - TLTSID=FD1DBC6EAF1710AFDC5BC7D628D1EAC2; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Sat, 27-Apr-2013 09:23:54 GMT;path=/;domain=partner-feed.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":154,"params":{"wt":"json","rows":"1","q":"+geoId:81989
+        AND +stubhubDocumentType:geo"}},"response":{"numFound":1,"start":0,"docs":[{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-81989","active":"1","deleted":"0","description":"Bob
+        Hope Theatre","desc_sort":"Bob Hope Theatre","geoId":"81989","id":"81989","hidden":"0","ancestorGeoIds":"81989
+        81 4 196976 0","ancestorKeywords":"Bob Hope Theatre seating chart box office
+        address capacity floor plan best seats images parking directions to details
+        information restaurants SF Bay Area event ticketsSF Bay Area Venues events
+        in SF Bay Areatickets for events in SF Bay Area sfbay sf s.f. bay California
+        event ticketsCalifornia Venues events in Californiatickets for events in California
+        ca cali cal United States event tickets United States Venues events in United
+        States tickets for events in United States event tickets by city","categorySearchKeywords":"Bob
+        Hope Theatre Bob Hope Theatre - Info and Details - StubHub! All the information
+        you need on Bob Hope Theatre like seating charts directions box office address.
+        Find nearby parking restaurants and hotels near Bob Hope Theatre on StubHub!
+        Bob Hope Theatre seating chart box office address capacity floor plan best
+        seats images parking directions to details information restaurants Bob Hope
+        Theatre Bob Hope Theatre Bob Hope Theatre Bob Hope Theatre clubs-bars-theater-venues
+        Bob Hope Theatre","categoryType":"geo","channel":"United States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"clubs-bars-theater-venues","fullDescription":"SF
+        Bay Area, California in Bob Hope Theatre","isValidCategorySearchResult":"1","keywords":"Bob
+        Hope Theatre seating chart, box office, address, capacity, floor plan, best
+        seats, images, parking, directions to, details, information, restaurants","leaf":"true","localeDescription":"SF
+        Bay Area, California","meta_description":"All the information you need on
+        Bob Hope Theatre, like seating charts, directions, box office, address. Find
+        nearby parking, restaurants and hotels near Bob Hope Theatre on StubHub!","name_primary":"Bob
+        Hope Theatre","name_secondary":"Bob Hope Theatre","parent_id":"81","season_venue_flag":"0","seo_description":"Bob
+        Hope Theatre","seo_title":"Bob Hope Theatre","threeLevelsUpIds":"81989 81
+        4","title":"Bob Hope Theatre - Info and Details - StubHub!","urlpath":"bob-hope-theatre-event-tickets","urlpathid":"123778","ancestorDescription":"Bob
+        Hope Theatre SF Bay Area California United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","venueDetailUrlPath":"bob-hope-theatre","venueDetailUrlPathId":"2069426","dateLastIndexed":"2013-04-21T12:55:07.821Z","locale":["en_US"]}]}}'
+    http_version: 
+  recorded_at: Sat, 27 Apr 2013 08:53:54 GMT
 recorded_with: VCR 2.4.0

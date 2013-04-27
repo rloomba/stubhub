@@ -1,8 +1,13 @@
   module Stubhub
     class Document < OpenStruct
 
-      def self.demodulize(class_name_in_module)
-        class_name_in_module.to_s.gsub(/^.*::/, '')
+      def self.find(params,options = {})
+        params.merge!( :stubhubDocumentType => demodulize.downcase )
+        Client.make_request(self,params,options) if ancestors[1] == Stubhub::Document
+      end
+
+      def self.demodulize
+        to_s.gsub(/^.*::/, '')
       end
 
       def fields

@@ -17,7 +17,7 @@ module Stubhub
 
     context ".demodulize" do
       it "returns only the class name without a namespace" do
-        Document.demodulize(Stubhub::Document).should eq "Document"
+        Stubhub::Ticket.demodulize.should eq "Ticket"
       end
     end
 

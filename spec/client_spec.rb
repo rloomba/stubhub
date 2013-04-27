@@ -7,7 +7,7 @@ module Stubhub
         params = {"stubhubDocumentType" => "test",
                  "id" => "5"}
         url = Client.convert_query_to_url(params, {})
-        url.should eq "%2B+stubhubDocumentType%3Atest%0D%0A%2B+id%3A5%0D%0A&start=0&rows=10&wt=json"
+        url.should eq "q=%2BstubhubDocumentType%3Atest+AND+%2Bid%3A5&wt=json"
       end
     end
     context ".defaults" do
