@@ -26,7 +26,7 @@ module Stubhub
     def self.defaults
         @options ||= {
           "start"   => 0,
-          # "rows"    => 100,
+          "rows"    => 100,
           "wt"      => "json"
         }
       end
