@@ -96,32 +96,68 @@ http_interactions:
     headers:
       Server:
       - Apache
+      Content-Length:
+      - '190'
       Content-Type:
       - application/json;charset=UTF-8
       Expires:
-      - Mon, 01 Apr 2013 23:34:38 GMT
+      - Mon, 13 Jan 2014 21:28:28 GMT
       Cache-Control:
       - max-age=0, no-cache, no-store
       Pragma:
       - no-cache
       Date:
-      - Mon, 01 Apr 2013 23:34:38 GMT
-      Content-Length:
-      - '1248'
+      - Mon, 13 Jan 2014 21:28:28 GMT
       Connection:
-      - Keep-Alive
+      - keep-alive
       Set-Cookie:
-      - TLTHID=B7D13AB69B24109BF3E7EDCDFD3B4839; Path=/; Domain=.stubhub.com
-      - TLTSID=B7D13AB69B24109BF3E7EDCDFD3B4839; Path=/; Domain=.stubhub.com
-      - dc=origin1;expires=Tue, 02-Apr-2013 00:04:37 GMT;path=/;domain=www.stubhub.com;
+      - DC=origin1;expires=Mon, 13-Jan-2014 21:58:28 GMT;path=/;domain=stubhub.com;
+      - TLTHID=A49538B07C99107C6B2BA0AD796D0A2C; Path=/; Domain=.stubhub.com
+      - TLTSID=A49538B07C99107C6B2BA0AD796D0A2C; Path=/; Domain=.stubhub.com
     body:
       encoding: US-ASCII
-      string: ! '{"responseHeader":{"status":0,"QTime":1,"params":{"wt":"json","rows":"10","start":"0","q":"+
-        stubhubDocumentType:ticket\r\n+ id:488218079\r\n"}},"response":{"numFound":1,"start":0,"docs":[{"stubhubDocumentId":"ticket-488218079","stubhubDocumentType":"ticket","courier":"0","curr_price":78.0,"curPr":78.0,"date_added":"2013-02-25T07:21:23Z","date_last_modified":"2013-02-25T07:22:34Z","delivery_icon":"fedex","end_date":"2013-12-05T00:30:00Z","event_id":"4187540","id":"488218079","priceGroups":"1","quantity":6,"quantity_facet_str":"6
-        tickets|6","quantity_remain":6,"row_desc":"V","sale_method":"1","seats":"General
-        Admission","section":"Mezzanine Level","seller_cobrand":"www","seller_id":"6802387","showTicketKeyStr":"ticketACTIVE4187540","split_option":"1","status":"0","system_status":"ACTIVE","ticket_list_type_desc":"Ticket","ticket_list_type_id":"1","ticket_medium_id":"2","ticket_split":1,"time_left":"247d
-        15h 44m","listing_source_id":"7","listing_source_name":"IndyGen3","updateInitiatedTimestamp":"2013-04-01T08:45:51.152Z","currency_code":"USD","list_price":78.0,"dateLastIndexed":"2013-04-01T08:46:23.002Z","fm_dm_rules":["5,1,4.95,,2013-12-05T00:30:00Z"],"fm_dm_rules_desc":["PDF,Electronic
-        - Download,4.95,,2013-12-05T00:30:00Z"]}]}}'
+      string: ! '{"responseHeader":{"status":0,"QTime":1,"params":{"start":"0","q":"+stubhubDocumentType:ticket\r\n+id:488218079\r\n","wt":"json","rows":"10"}},"response":{"numFound":0,"start":0,"docs":[]}}
+
+'
     http_version: 
-  recorded_at: Mon, 01 Apr 2013 23:34:37 GMT
+  recorded_at: Mon, 13 Jan 2014 21:28:28 GMT
+- request:
+    method: get
+    uri: http://www.stubhub.com/listingCatalog/select/?q=%2B%20stubhubDocumentType:ticket%0D%0A%2B%20id:488218079%0D%0A&rows=100&start=0&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '191'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Mon, 13 Jan 2014 21:29:07 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Mon, 13 Jan 2014 21:29:07 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - DC=origin1;expires=Mon, 13-Jan-2014 21:59:07 GMT;path=/;domain=stubhub.com;
+      - TLTHID=BB9D1AC87C99107C8EB1CBB8B7BDB625; Path=/; Domain=.stubhub.com
+      - TLTSID=BB9D1AC87C99107C8EB1CBB8B7BDB625; Path=/; Domain=.stubhub.com
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":1,"params":{"start":"0","q":"+stubhubDocumentType:ticket\r\n+id:488218079\r\n","wt":"json","rows":"100"}},"response":{"numFound":0,"start":0,"docs":[]}}
+
+'
+    http_version: 
+  recorded_at: Mon, 13 Jan 2014 21:29:07 GMT
 recorded_with: VCR 2.4.0
