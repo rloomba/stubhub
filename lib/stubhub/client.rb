@@ -8,7 +8,7 @@ module Stubhub
     def self.convert_query_to_url(params, options)
       params.map do |k,v|
         "%2B+#{k}%3A#{v}%0D%0A"
-      end.join << self.defaults.merge(options).map do |k,v|
+      end.join << self.defaults.merge!(options).map do |k,v|
         "&#{k}=#{v}"
       end.join
     end
