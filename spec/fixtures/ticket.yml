@@ -124,4 +124,82 @@ http_interactions:
         - Download,4.95,,2013-12-05T00:30:00Z"]}]}}'
     http_version: 
   recorded_at: Mon, 01 Apr 2013 23:34:37 GMT
+- request:
+    method: get
+    uri: http://www.stubhub.com/listingCatalog/select/?q=%2B%20stubhubDocumentType:ticket%0D%0A%2B%20id:488218079%0D%0A&rows=100&start=0&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '191'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sun, 19 Jan 2014 14:57:15 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sun, 19 Jan 2014 14:57:15 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - DC=origin1;expires=Sun, 19-Jan-2014 15:27:15 GMT;path=/;domain=stubhub.com;
+      - TLTHID=FBF4F2EC811910815A8BC214B8C77F0B; Path=/; Domain=.stubhub.com
+      - TLTSID=FBF4F2EC811910815A8BC214B8C77F0B; Path=/; Domain=.stubhub.com
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":1,"params":{"start":"0","q":"+stubhubDocumentType:ticket\r\n+id:488218079\r\n","wt":"json","rows":"100"}},"response":{"numFound":0,"start":0,"docs":[]}}
+
+'
+    http_version: 
+  recorded_at: Sun, 19 Jan 2014 14:57:19 GMT
+- request:
+    method: get
+    uri: http://www.stubhub.com/listingCatalog/select/?q=%2B%20stubhubDocumentType:ticket%0D%0A%2B%20id:488218079%0D%0A&rows=90&start=0&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '190'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Sun, 19 Jan 2014 14:58:00 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Sun, 19 Jan 2014 14:58:00 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - DC=origin1;expires=Sun, 19-Jan-2014 15:28:00 GMT;path=/;domain=stubhub.com;
+      - TLTHID=16D66C4E811A1081321483C6813CE2A5; Path=/; Domain=.stubhub.com
+      - TLTSID=16D66C4E811A1081321483C6813CE2A5; Path=/; Domain=.stubhub.com
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":0,"params":{"start":"0","q":"+stubhubDocumentType:ticket\r\n+id:488218079\r\n","wt":"json","rows":"90"}},"response":{"numFound":0,"start":0,"docs":[]}}
+
+'
+    http_version: 
+  recorded_at: Sun, 19 Jan 2014 14:58:04 GMT
 recorded_with: VCR 2.4.0
