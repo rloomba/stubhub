@@ -21,7 +21,9 @@ module Stubhub
       params.map do |k,v|
         v = "\"#{v}\"" if k =~ /description/i
         "+#{k}:#{v}" 
-      end.join(" AND ")
+      end.join << self.defaults.merge!(options).map do |k,v|
+        "&#{k}=#{v}"
+      end.join
     end
 
     def self.convert_url_params(url_params) # Array of hashes
@@ -46,3 +48,5 @@ module Stubhub
 
   end
 end
+
+# http://partner-feed.stubhub.com/listingCatalog/select/?q=stubhubDocumentType:event
