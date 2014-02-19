@@ -1,7 +1,7 @@
   module Stubhub
     class Document < OpenStruct
 
-      def self.find(params,options = {})
+      def self.find(params={},options = {})
         params.merge!( :stubhubDocumentType => demodulize.downcase )
         Client.make_request(self,params,options) if ancestors[1] == Stubhub::Document
       end

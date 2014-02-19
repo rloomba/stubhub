@@ -11,10 +11,14 @@ module Stubhub
     end
 
     def sections(params = {},options = {})
-      params.merge!({ :venue_config_id => venue_config_id })
+      params.merge!({:venue_config_id => venue_config_id })
       VenueZoneSection.find(params,options)
     end
-    alias_method :zones, :sections
+
+    def events(params={},options={})
+      params.merge!({:venue_config_id => venue_config_id })
+      Event.find(params,options)
+    end
 
   end
 end

@@ -5,6 +5,7 @@ require 'uri'
 
 require_relative 'stubhub/document'
 require_relative 'stubhub/client'
+require_relative 'stubhub/proxy_client'
 require_relative 'stubhub/event'
 require_relative 'stubhub/genre'
 require_relative 'stubhub/geo'
