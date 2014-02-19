@@ -4,31 +4,30 @@ module Stubhub
 
     format :json
 
-    def self.make_request(klass, params, options = {})
+    BASE_URL = 'http://partner-feed.stubhub.com'
+
+    def self.make_request(klass, params, options={})
       require 'cgi' unless defined?(CGI) && defined?(CGI::escape)
       path = options.delete(:path) || "listingCatalog/select"
-      query_url = convert_query_to_url(params, options)
-      result = get("http://partner-feed.stubhub.com/#{path}/?#{query_url}")
+      query = prepare_query(params, options)
+      result = get("#{BASE_URL}/#{path}/?#{query}")
       parse(result.body,klass)
     end
 
-    def self.convert_query_to_url(params, options = {})
-      query = {:q => convert_solr_params(params) }
-      url_params = convert_url_params( [query, defaults.merge(options)] )
+    def self.prepare_query(params, options={})
+      query = {:q => solr_dump(params) }
+      hash_to_params( defaults.merge(options).merge(query) )
     end
 
-    def self.convert_solr_params(params)
+    def self.solr_dump(params)
       params.map do |k,v|
-        v = "\"#{v}\"" if k =~ /description/i
-        "+#{k}:#{v}" 
-      end.join << self.defaults.merge!(options).map do |k,v|
-        "&#{k}=#{v}"
-      end.join
+        "#{k}:\"#{v}\""
+      end.join(' AND ')
     end
 
-    def self.convert_url_params(url_params) # Array of hashes
-      url_params.map do |param|
-        param.map { |k,v| "#{CGI.escape(k.to_s)}=#{CGI.escape(v.to_s)}" }.join("&")
+    def self.hash_to_params(params={})
+      params.map do |k,v|
+        "#{CGI.escape(k.to_s)}=#{CGI.escape(v.to_s)}"
       end.join("&")
     end
 
