@@ -1,7 +1,5 @@
 module Stubhub
   class Client
-    include HTTParty
-    format :json
     BASE_URL = 'http://partner-feed.stubhub.com'
 
     class << self
@@ -42,6 +40,15 @@ module Stubhub
           :wt   => "json"
         }
       end
+
+      private
+
+        def get(url)
+          uri = URI(url)
+          Net::HTTP.new(uri.host,uri.port).start do |http|
+            http.get(uri)
+          end
+        end
     end
 
   end
