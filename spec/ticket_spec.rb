@@ -11,10 +11,13 @@ module Stubhub
     end
 
     context ".find_by_ticket_id" do
-      it "should find the ticket with ticket_id 488218079" do
-        ticket = Ticket.find_by_ticket_id(488218079)
-        ticket.id.should eq("488218079")
-      end
+      # Stubhub no longer allows searching for tickets on the public
+      # API.
+
+      # it "should find the ticket with ticket_id 488218079" do
+      #   ticket = Ticket.find_by_ticket_id(488218079)
+      #   ticket.id.should eq("488218079")
+      # end
     end
 
   end
