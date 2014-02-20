@@ -161,4 +161,36 @@ http_interactions:
         {"responseHeader":{"status":0,"QTime":2,"params":{"q":"event_id:\"4187540\" AND stubhubDocumentType:\"event\"","wt":"json","rows":"60000"}},"response":{"numFound":0,"start":0,"docs":[]}}
     http_version: 
   recorded_at: Thu, 20 Feb 2014 05:18:21 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=event_id:%224449625%22%20AND%20stubhubDocumentType:%22event%22&rows=999999&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '5559'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Cache-Control:
+      - public, max-age=7200
+      Expires:
+      - Thu, 20 Feb 2014 07:32:40 GMT
+      Date:
+      - Thu, 20 Feb 2014 05:32:40 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        {"responseHeader":{"status":0,"QTime":6,"params":{"q":"event_id:\"4449625\" AND stubhubDocumentType:\"event\"","wt":"json","rows":"60000"}},"response":{"numFound":1,"start":0,"docs":[{"stubhubDocumentId":"event-4449625","stubhubDocumentType":"event","event_id":"4449625","act_primary":"Bruno Mars","id":"4449625","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0 1 63910 492103","ancestorGeoIds":"0 196976 521 522 3642","channel":"Concert tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert tickets|1","city":"Hershey","date_confirm":"2014-01-14T03:31:41Z","date_inhand":"2014-01-15T03:31:41Z","date_last_modified":"2014-01-30T23:16:28Z","date_onsale":"2014-01-15T03:31:41Z","description":"The Moonshine Jungle Tour - Bruno Mars Tickets","desc_sort":"The Moonshine Jungle Tour - Bruno Mars Tickets","eventDate_facet_str":"July, 2014|2014-07","eventGenreParentDescription_facet_str":"Bruno Mars Tickets|492103","eventGeoDescription":"Hersheypark Stadium","eventGeoDescription_text":"Hersheypark Stadium","eventLocation_facet_str":"Pennsylvania, Philadelphia|522","event_date":"2014-07-13T00:00:00Z","event_date_local":"2014-07-12","event_date_time_local":"2014-07-12T20:00:00Z","event_time_local":"20:00:00","event_type":"4449625, ","evt_segmentation_id":"0","genreDateDesc":"music-genre-pop-music-tickets,,Concert ticket, concert tickets, buy, sell, ticket, tickets","genreUrlPath":"bruno-mars-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists A - C","genre_parent":"492103","genre_parent_name":"Bruno Mars Tickets","geoEventTypes":"stadium-venues","geoUrlPath":"hersheypark-stadium-event-tickets","geography_parent":"3642","hide_event_date":"0","image_url":"stubhub_4383_HersheyPark_Concert.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Bruno Mars, , Bruno Mars Star Pavilion at Hersheypark Stadium, Bruno Mars Hershey,Bruno Mars Concert, buy, sell, ticket, tickets","last_chance":"2014-07-13T00:00:00Z","maxPrice":9999.0,"maxSeatsTogether":43.0,"meta_description":"Bruno Mars Star Pavilion at Hersheypark Stadium Tickets - Buy and sell Bruno Mars Hershey Tickets for July 12 at Star Pavilion at Hersheypark Stadium in Hershey, PA on StubHub!","minPrice":83.99,"minSeatsTogether":1.0,"name_primary":"Star Pavilion at Hersheypark Stadium","name_secondary":"Bruno Mars","nickname":"concerts","seo_description":"Bruno Mars at Star Pavilion at Hersheypark Stadium","seo_title":"Bruno Mars Star Pavilion at Hersheypark Stadium Hershey Tickets - 2014-7-12","spark_event_flag":"0","state":"PA","threeLevelsUpIds":"492103 63910 1","title":"Bruno Mars Hershey Tickets - Bruno Mars 07/12/2014 Star Pavilion at Hersheypark Stadium Tickets on StubHub!","totalPostings":671,"totalTickets":3296.0,"type_id":"0","urlpath":"bruno-mars-hershey-hersheypark-stadium-12-7-2014-4449625","urlpathid":"2505418","venue_config_id":"4383","venue_name":"Hersheypark Stadium","venue_name_text":"Hersheypark Stadium","venueconfigurationid":"4383","zip":"17033","zoneDescriptions":"|Floor |Stands |Wheelchair Accessible","zoneIds":"16769 16770 96447","accompanyingAct":["739297"],"defaultDomain":"stubhub.com","allowedViewingDomain":["stubhub.com"],"artistPrimaryStyle":"441193","artistSecondaryStyle":["195743"],"genreStartingAlphabet":["b"],"is_event_package":"0","latitude":40.290714,"longitude":-76.66028,"lat_lon":"40.290715,-76.66028","date_added":"2014-01-15T03:31:41Z","event_status_id":2,"ancestorGenreDescriptions":["All tickets","Concert tickets","Artists A - C","Bruno Mars Tickets"],"ancestorGeoDescriptions":["By Geography","United States","Pennsylvania","Philadelphia","Hersheypark Stadium"],"timezone":"EST","timezone_id":"2","venue_config_name":"Endstage - Dynamic","updateInitiatedTimestamp":"2014-02-20T05:18:24.610Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","venue_configuration_version":"2","locale":["en_US"],"keywords_en_US":"Bruno Mars, , Bruno Mars Star Pavilion at Hersheypark Stadium, Bruno Mars Hershey,Bruno Mars Concert, buy, sell, ticket, tickets","event_type_en_US":"4449625, ","seo_title_en_US":"Bruno Mars Star Pavilion at Hersheypark Stadium Hershey Tickets - 2014-7-12","seo_description_en_US":"Bruno Mars at Star Pavilion at Hersheypark Stadium","name_primary_en_US":"Star Pavilion at Hersheypark Stadium","name_secondary_en_US":"Bruno Mars","act_primary_en_US":"Bruno Mars","title_en_US":"Bruno Mars Hershey Tickets - Bruno Mars 07/12/2014 Star Pavilion at Hersheypark Stadium Tickets on StubHub!","meta_description_en_US":"Bruno Mars Star Pavilion at Hersheypark Stadium Tickets - Buy and sell Bruno Mars Hershey Tickets for July 12 at Star Pavilion at Hersheypark Stadium in Hershey, PA on StubHub!","event_description_en_US":"The Moonshine Jungle Tour - Bruno Mars Tickets","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"hersheypark-stadium","access_control_method":1,"is_scrubbing_enabled":"1","view_from_section_ind":0,"bundled_type":"2","hide_event_time":0,"minListPrice":74.54,"venue_config_map_type":5,"addr1":"100 W. Hersheypark Dr.","country":"US","ancestorCategoryPath":"1","ancestorGroupingPath":"63910","ancestorPerformerPath":"492103","ancestorGroupingDescriptions":["Artists A - C"],"ancestorCategoryDescriptions":["Concert tickets"],"ancestorPerformerDescriptions":["Bruno Mars Tickets"],"ancestorGeoPath":"196976/521/522","dateLastIndexed":"2014-02-20T05:18:26.468Z","_version_":1460533731577036800}]}}
+    http_version: 
+  recorded_at: Thu, 20 Feb 2014 05:32:40 GMT
 recorded_with: VCR 2.4.0

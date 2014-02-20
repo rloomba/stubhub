@@ -1,5 +1,5 @@
 require 'spec_helper'
-EVENT_ID = 4187540
+EVENT_ID = 4449625
 
 module Stubhub
   describe Event do
