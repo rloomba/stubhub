@@ -23,5 +23,13 @@
         super(data)
       end
 
+      def as_json(options=nil)
+        marshal_dump
+      end
+
+      def to_json(options=nil)
+        as_json(options).to_json
+      end
+
     end
   end
