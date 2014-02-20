@@ -1,0 +1,99 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=description:%22Hawaii%22%20AND%20stubhubDocumentType:%22geo%22&rows=2&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '4840'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Cache-Control:
+      - public, max-age=7200
+      Expires:
+      - Thu, 20 Feb 2014 07:18:19 GMT
+      Date:
+      - Thu, 20 Feb 2014 05:18:19 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        {"responseHeader":{"status":0,"QTime":1,"params":{"q":"description:\"Hawaii\" AND stubhubDocumentType:\"geo\"","wt":"json","rows":"2"}},"response":{"numFound":4,"start":0,"docs":[{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-421","active":"1","deleted":"0","description":"Hawaii","desc_sort":"Hawaii","geoId":"421","id":"421","hidden":"0","childId":"422 33782 79798","ancestorGeoIds":"421 196976 0","ancestorKeywords":"Hawaii event ticketsHawaii Venues events in Hawaiitickets for events in Hawaii ha hai United States event tickets United States Venues events in United States tickets for events in United States event tickets by city","categorySearchKeywords":"Hawaii Hawaii Event Tickets Hawaii event tickets - Buy and sell tickets to events in Hawaii. You can find event tickets to different venues in Hawaii at StubHub! Hawaii event ticketsHawaii Venues events in Hawaiitickets for events in Hawaii ha hai Hawaii Event Tickets Hawaii Venues Hawaii  Hawaii","categoryType":"geo","channel":"United States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"1","fullDescription":"United States, By Geography in Hawaii","isValidCategorySearchResult":"1","keywords":"Hawaii event tickets,Hawaii Venues, events in Hawaii,tickets for events in Hawaii, ha, hai,","leaf":"false","localeDescription":"United States, By Geography","meta_description":"Hawaii event tickets - Buy and sell tickets to events in Hawaii. You can find event tickets to different venues in Hawaii at StubHub!","name_primary":"Hawaii","parent_id":"196976","season_venue_flag":"0","seo_description":"Hawaii Venues","seo_title":"Hawaii Event Tickets","threeLevelsUpIds":"421 196976 0","title":"Hawaii Event Tickets","urlpath":"hawaii-tickets","urlpathid":"49667","ancestorDescription":"Hawaii United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","locale":["en_US"],"geography_meta_description":"Hawaii","venueDetailUrlPath":"hawaii","venueDetailUrlPathId":"2069516","nodeType":"Geo","ancestorGeoPath":"196976/421","ancestorGeoDescriptions":["United States","Hawaii"],"dateLastIndexed":"2014-02-18T12:40:02.674Z","_version_":1460380319397969921},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-155125","active":"1","deleted":"0","description":"Hawaii Theatre","desc_sort":"Hawaii Theatre","geoId":"155125","id":"155125","hidden":"0","ancestorGeoIds":"155125 422 421 196976 0","ancestorKeywords":"Hawaii Theatre TicketsHawaii Theatre event ticketsHawaii Theatre schedule buy sell ticket Hawaii Theatre - Honolulu Honolulu event ticketsHonolulu Venues events in Honolulutickets for events in Honolulu Hawaii event ticketsHawaii Venues events in Hawaiitickets for events in Hawaii ha hai United States event tickets United States Venues events in United States tickets for events in United States event tickets by city","categorySearchKeywords":"Hawaii Theatre Hawaii Theatre Tickets - Hawaii Theatre Schedule at StubHub! Hawaii Theatre Tickets - Buy and sell Hawaii Theatre event tickets and check out the Hawaii Theatre schedule in Honolulu HI at StubHub! Hawaii Theatre TicketsHawaii Theatre event ticketsHawaii Theatre schedule buy sell ticket Hawaii Theatre - Honolulu Hawaii Theatre Tickets - Hawaii Theatre Events Hawaii Theatre Tickets Hawaii Theatre - Honolulu hawaii-theatre clubs-bars-theater-venues Hawaii Theatre","categoryType":"geo","channel":"United States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"clubs-bars-theater-venues","fullDescription":"Honolulu, Hawaii in Hawaii Theatre","isValidCategorySearchResult":"1","keywords":"Hawaii Theatre Tickets,Hawaii Theatre event tickets,Hawaii Theatre schedule, buy, sell, ticket, Hawaii Theatre - Honolulu","leaf":"true","localeDescription":"Honolulu, Hawaii","meta_description":"Hawaii Theatre Tickets - Buy and sell Hawaii Theatre event tickets and check out the Hawaii Theatre schedule in Honolulu, HI at StubHub!","name_primary":"Hawaii Theatre - Honolulu","parent_id":"422","season_venue_flag":"0","seo_description":"Hawaii Theatre Tickets","seo_title":"Hawaii Theatre Tickets - Hawaii Theatre Events","threeLevelsUpIds":"155125 422 421","title":"Hawaii Theatre Tickets - Hawaii Theatre Schedule at StubHub!","urlpath":"hawaii-theatre-tickets","urlpathid":"497474","ancestorDescription":"Hawaii Theatre Honolulu Hawaii United States By Geography","home_team":"hawaii-theatre","date_last_modified":"2013-04-17T18:13:11Z","locale":["en_US"],"geography_meta_description":"Hawaii Theatre","venueDetailUrlPath":"hawaii-theatre","venueDetailUrlPathId":"2073637","nodeType":"Venue","ancestorGeoPath":"196976/421/422","ancestorVenuePath":"155125","ancestorGeoDescriptions":["United States","Hawaii","Honolulu"],"dateLastIndexed":"2014-02-18T12:44:38.332Z","_version_":1460380610204794880}]}}
+    http_version: 
+  recorded_at: Thu, 20 Feb 2014 05:18:18 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=localeDescription:%22SF%20Bay%20Area%22%20AND%20stubhubDocumentType:%22geo%22&rows=2&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '5848'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Cache-Control:
+      - public, max-age=7200
+      Expires:
+      - Thu, 20 Feb 2014 07:18:19 GMT
+      Date:
+      - Thu, 20 Feb 2014 05:18:19 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        {"responseHeader":{"status":0,"QTime":3,"params":{"q":"localeDescription:\"SF Bay Area\" AND stubhubDocumentType:\"geo\"","wt":"json","rows":"2"}},"response":{"numFound":407,"start":0,"docs":[{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-213870","active":"1","deleted":"0","description":"Vacaville Performing Arts Center","desc_sort":"Vacaville Performing Arts Center","geoId":"213870","id":"213870","hidden":"0","ancestorGeoIds":"213870 81 4 196976 0","ancestorKeywords":"Vacaville Performing Arts Center Vacaville Performing Arts Center map Vacaville Performing Arts Center seat map Vacaville Performing Arts Center seating chart\r\n SF Bay Area event ticketsSF Bay Area Venues events in SF Bay Areatickets for events in SF Bay Area sfbay sf s.f. bay California event ticketsCalifornia Venues events in Californiatickets for events in California ca cali cal United States event tickets United States Venues events in United States tickets for events in United States event tickets by city","categorySearchKeywords":"Vacaville Performing Arts Center Vacaville Performing Arts Center Seating Chart - Vacaville Performing Arts Center Map at StubHub! Vacaville Performing Arts Center Map - Find Vacaville Performing Arts Center Seating Chart and all other information for Vacaville Performing Arts Center at StubHub!\r\n Vacaville Performing Arts Center Vacaville Performing Arts Center map Vacaville Performing Arts Center seat map Vacaville Performing Arts Center seating chart\r\n Vacaville Performing Arts Center Vacaville Performing Arts Center\r\n Vacaville Performing Arts Center Vacaville Performing Arts Center clubs-bars-theater-venues Vacaville Performing Arts Center","categoryType":"geo","channel":"United States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"clubs-bars-theater-venues","fullDescription":"SF Bay Area, California in Vacaville Performing Arts Center","isValidCategorySearchResult":"1","keywords":"Vacaville Performing Arts Center, Vacaville Performing Arts Center map, Vacaville Performing Arts Center seat map, Vacaville Performing Arts Center seating chart\r\n","leaf":"true","localeDescription":"SF Bay Area, California","meta_description":"Vacaville Performing Arts Center Map - Find Vacaville Performing Arts Center Seating Chart and all other information for Vacaville Performing Arts Center at StubHub!\r\n","name_primary":"Vacaville Performing Arts Center","name_secondary":"Vacaville Performing Arts Center","parent_id":"81","season_venue_flag":"0","seo_description":"Vacaville Performing Arts Center\r\n","seo_title":"Vacaville Performing Arts Center","threeLevelsUpIds":"213870 81 4","title":"Vacaville Performing Arts Center Seating Chart - Vacaville Performing Arts Center Map at StubHub!","urlpath":"vacaville-performing-arts-center-tickets","urlpathid":"2262817","ancestorDescription":"Vacaville Performing Arts Center SF Bay Area California United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","date_added":"2013-01-09T18:39:46Z","locale":["en_US"],"venueDetailUrlPath":"vacaville-performing-arts-center","venueDetailUrlPathId":"2262818","nodeType":"Venue","ancestorGeoPath":"196976/4/81","ancestorVenuePath":"213870","ancestorGeoDescriptions":["United States","California","SF Bay Area"],"dateLastIndexed":"2014-02-18T12:42:13.655Z","_version_":1460380460291981312},{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-213873","active":"1","deleted":"0","description":"Nourse Theatre","desc_sort":"Nourse Theatre","geoId":"213873","id":"213873","hidden":"0","ancestorGeoIds":"213873 81 4 196976 0","ancestorKeywords":"Nourse Theatre Nourse Theatre map Nourse Theatre seat map Nourse Theatre seating chart\r\n SF Bay Area event ticketsSF Bay Area Venues events in SF Bay Areatickets for events in SF Bay Area sfbay sf s.f. bay California event ticketsCalifornia Venues events in Californiatickets for events in California ca cali cal United States event tickets United States Venues events in United States tickets for events in United States event tickets by city","categorySearchKeywords":"Nourse Theatre Nourse Theatre Seating Chart - Nourse Theatre Map at StubHub! Nourse Theatre Map - Find Nourse Theatre Seating Chart and all other information for Nourse Theatre at StubHub!\r\n Nourse Theatre Nourse Theatre map Nourse Theatre seat map Nourse Theatre seating chart\r\n Nourse Theatre Nourse Theatre\r\n Nourse Theatre Nourse Theatre  Nourse Theatre","categoryType":"geo","channel":"United States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","fullDescription":"SF Bay Area, California in Nourse Theatre","isValidCategorySearchResult":"1","keywords":"Nourse Theatre, Nourse Theatre map, Nourse Theatre seat map, Nourse Theatre seating chart\r\n","leaf":"true","localeDescription":"SF Bay Area, California","meta_description":"Nourse Theatre Map - Find Nourse Theatre Seating Chart and all other information for Nourse Theatre at StubHub!\r\n","name_primary":"Nourse Theatre","name_secondary":"Nourse Theatre","parent_id":"81","season_venue_flag":"0","seo_description":"Nourse Theatre\r\n","seo_title":"Nourse Theatre","threeLevelsUpIds":"213873 81 4","title":"Nourse Theatre Seating Chart - Nourse Theatre Map at StubHub!","urlpath":"nourse-theatre-tickets","urlpathid":"2265648","ancestorDescription":"Nourse Theatre SF Bay Area California United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","date_added":"2013-01-10T20:24:29Z","locale":["en_US"],"venueDetailUrlPath":"nourse-theatre","venueDetailUrlPathId":"2265649","nodeType":"Venue","ancestorGeoPath":"196976/4/81","ancestorVenuePath":"213873","ancestorGeoDescriptions":["United States","California","SF Bay Area"],"dateLastIndexed":"2014-02-18T12:42:13.655Z","_version_":1460380460293029889}]}}
+    http_version: 
+  recorded_at: Thu, 20 Feb 2014 05:18:19 GMT
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=geoId:%2281989%22%20AND%20stubhubDocumentType:%22geo%22&rows=1&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '2938'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Cache-Control:
+      - public, max-age=7200
+      Expires:
+      - Thu, 20 Feb 2014 07:18:19 GMT
+      Date:
+      - Thu, 20 Feb 2014 05:18:19 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        {"responseHeader":{"status":0,"QTime":5,"params":{"q":"geoId:\"81989\" AND stubhubDocumentType:\"geo\"","wt":"json","rows":"1"}},"response":{"numFound":1,"start":0,"docs":[{"stubhubDocumentType":"geo","stubhubDocumentId":"geo-81989","active":"1","deleted":"0","description":"Bob Hope Theatre","desc_sort":"Bob Hope Theatre","geoId":"81989","id":"81989","hidden":"0","ancestorGeoIds":"81989 81 4 196976 0","ancestorKeywords":"Bob Hope Theatre seating chart box office address capacity floor plan best seats images parking directions to details information restaurants SF Bay Area event ticketsSF Bay Area Venues events in SF Bay Areatickets for events in SF Bay Area sfbay sf s.f. bay California event ticketsCalifornia Venues events in Californiatickets for events in California ca cali cal United States event tickets United States Venues events in United States tickets for events in United States event tickets by city","categorySearchKeywords":"Bob Hope Theatre Bob Hope Theatre - Info and Details - StubHub! All the information you need on Bob Hope Theatre like seating charts directions box office address. Find nearby parking restaurants and hotels near Bob Hope Theatre on StubHub! Bob Hope Theatre seating chart box office address capacity floor plan best seats images parking directions to details information restaurants Bob Hope Theatre Bob Hope Theatre Bob Hope Theatre Bob Hope Theatre clubs-bars-theater-venues Bob Hope Theatre","categoryType":"geo","channel":"United States","channelId":"196976","channelUrlPath":"united-states-tickets","do_not_display_flag":"0","event_types":"clubs-bars-theater-venues","fullDescription":"SF Bay Area, California in Bob Hope Theatre","isValidCategorySearchResult":"1","keywords":"Bob Hope Theatre seating chart, box office, address, capacity, floor plan, best seats, images, parking, directions to, details, information, restaurants","leaf":"true","localeDescription":"SF Bay Area, California","meta_description":"All the information you need on Bob Hope Theatre, like seating charts, directions, box office, address. Find nearby parking, restaurants and hotels near Bob Hope Theatre on StubHub!","name_primary":"Bob Hope Theatre","name_secondary":"Bob Hope Theatre","parent_id":"81","season_venue_flag":"0","seo_description":"Bob Hope Theatre","seo_title":"Bob Hope Theatre","threeLevelsUpIds":"81989 81 4","title":"Bob Hope Theatre - Info and Details - StubHub!","urlpath":"bob-hope-theatre-event-tickets","urlpathid":"123778","ancestorDescription":"Bob Hope Theatre SF Bay Area California United States By Geography","date_last_modified":"2013-04-17T18:13:11Z","locale":["en_US"],"venueDetailUrlPath":"bob-hope-theatre","venueDetailUrlPathId":"2069426","nodeType":"Venue","ancestorGeoPath":"196976/4/81","ancestorVenuePath":"81989","ancestorGeoDescriptions":["United States","California","SF Bay Area"],"dateLastIndexed":"2014-02-18T12:46:06.602Z","_version_":1460380702759452673}]}}
+    http_version: 
+  recorded_at: Thu, 20 Feb 2014 05:18:19 GMT
+recorded_with: VCR 2.4.0

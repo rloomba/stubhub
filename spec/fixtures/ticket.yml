@@ -1,0 +1,35 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://partner-feed.stubhub.com/listingCatalog/select/?q=id:%22488218079%22%20AND%20stubhubDocumentType:%22ticket%22&rows=999999&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Length:
+      - '184'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Cache-Control:
+      - public, max-age=7154
+      Expires:
+      - Thu, 20 Feb 2014 07:17:35 GMT
+      Date:
+      - Thu, 20 Feb 2014 05:18:21 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        {"responseHeader":{"status":0,"QTime":1,"params":{"q":"id:\"488218079\" AND stubhubDocumentType:\"ticket\"","wt":"json","rows":"60000"}},"response":{"numFound":0,"start":0,"docs":[]}}
+    http_version: 
+  recorded_at: Thu, 20 Feb 2014 05:18:21 GMT
+recorded_with: VCR 2.4.0
