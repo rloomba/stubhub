@@ -3,11 +3,15 @@
 
       def self.find(params={},options = {})
         params.merge!( :stubhubDocumentType => demodulize.downcase )
-        Client.make_request(self,params,options) if ancestors[1] == Stubhub::Document
+        client.make_request(self,params,options) if ancestors[1] == Stubhub::Document
       end
 
       def self.demodulize
         to_s.gsub(/^.*::/, '')
+      end
+
+      def self.client
+        Client
       end
 
       def fields

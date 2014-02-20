@@ -6,6 +6,9 @@ module Stubhub
       find(params,options)
     end
 
+    def self.client
+      ENV['PROXY_ADDRESS'] ? ProxyClient : Client
+    end
 
   end
 end
