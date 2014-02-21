@@ -24,7 +24,7 @@
       end
 
       def as_json(options=nil)
-        marshal_dump
+        marshal_dump.stringify_keys
       end
 
       def to_json(options=nil)
