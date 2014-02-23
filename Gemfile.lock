@@ -9,11 +9,6 @@ GEM
     addressable (2.3.3)
     crack (0.3.2)
     diff-lcs (1.2.1)
-    httparty (0.10.2)
-      multi_json (~> 1.0)
-      multi_xml (>= 0.5.2)
-    multi_json (1.6.1)
-    multi_xml (0.5.3)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
@@ -31,7 +26,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  httparty
   rspec
   stubhub!
   vcr

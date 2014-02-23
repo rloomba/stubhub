@@ -1,5 +1,5 @@
 require 'spec_helper'
-VENUE_ID = 285636
+VENUE_ID = 803
 
 module Stubhub
   describe Venue do
@@ -22,6 +22,13 @@ module Stubhub
       it "peforms a search for the keyword" do
         venues = Venue.search("Staples Center")
         venues.length.should be >= 1
+      end
+    end
+
+    context "#sections" do
+      it "returns the venue's sections" do
+        venue = Venue.find_by_venue_id(VENUE_ID)
+        venue.sections({},:rows => 2).length.should be >= 1
       end
     end
 

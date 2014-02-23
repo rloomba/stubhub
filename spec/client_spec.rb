@@ -2,19 +2,19 @@ require 'spec_helper'
 
 module Stubhub
   describe Client do
-    context ".convert_query_to_url" do
+    context "::prepare_query" do
       it "converts params hash to proper url" do
         params = {"stubhubDocumentType" => "test",
                  "id" => "5"}
-        url = Client.convert_query_to_url(params, {})
-        url.should eq "%2B+stubhubDocumentType%3Atest%0D%0A%2B+id%3A5%0D%0A&start=0&rows=10&wt=json"
+        url = Client.prepare_query(params, {})
+        url.should include "q=stubhubDocumentType%3A%22test%22+AND+id%3A%225%22"
       end
       
       it 'allows overwriting of specific request options' do
         params = {"stubhubDocumentType" => "test",
                  "id" => "5"}
-        url = Client.convert_query_to_url(params, {"rows" => 90})
-        url.should eq "%2B+stubhubDocumentType%3Atest%0D%0A%2B+id%3A5%0D%0A&start=0&rows=90&wt=json"
+        url = Client.prepare_query(params, {"rows" => 90})
+        url.should include "rows=90"
       end 
 
     end

@@ -1,5 +1,5 @@
 require 'spec_helper'
-EVENT_ID = 4187540
+EVENT_ID = 4449625
 
 module Stubhub
   describe Event do
@@ -22,6 +22,14 @@ module Stubhub
       it "peforms a search for the keyword" do
         event = Event.search("above and beyond")
         event.length.should be >= 1
+      end
+    end
+
+    context "#tickets" do
+      it "returns the event's tickets" do
+        event_id = Ticket.find({},{:rows => 1}).event_id
+        event = Event.find_by_event_id(event_id)
+        event.tickets({},:rows => 2).length.should be >= 1
       end
     end
 
