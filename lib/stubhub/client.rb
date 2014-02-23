@@ -18,7 +18,10 @@ module Stubhub
 
       def solr_dump(params)
         params.map do |k,v|
-          "#{k}:\"#{v}\""
+          case v
+          when Array then "#{k}:(#{v.join(" OR ")})"
+          else "#{k}:\"#{v}\""
+          end
         end.join(' AND ')
       end
 
